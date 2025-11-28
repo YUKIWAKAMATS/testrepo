@@ -1,0 +1,150 @@
+{
+  "Type": "Project",
+  "TopElementId": "a428a186-5ceb-4edc-9d89-d670bab38a62",
+  "SchemaVersion": "13.0",
+  "Project": {
+    "Id": "a428a186-5ceb-4edc-9d89-d670bab38a62",
+    "Name": "MRN向け軽量デジタル化システム試行",
+    "Summary": "",
+    "Group": null,
+    "Icon": "",
+    "OutputModelPath": false,
+    "UnitFiles": [
+      {
+        "Name": "システム設計軽量デジタル化プロファイル",
+        "Type": "Profile",
+        "TopElementId": "dab7ccfa-6a8c-442b-b8d8-279853efbd65",
+        "IsSharedUnit": false,
+        "UnitPath": "Profile\\システム設計軽量デジタル化プロファイル.nprof"
+      },
+      {
+        "Name": "非構造化情報",
+        "Type": "Model",
+        "TopElementId": "9cb870be-668a-4f6e-902f-28e378668aee",
+        "IsSharedUnit": false,
+        "UnitPath": "Models\\非構造化情報.nmdl"
+      },
+      {
+        "Name": "タグ定義",
+        "Type": "Model",
+        "TopElementId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+        "IsSharedUnit": false,
+        "UnitPath": "Models\\タグ定義.nmdl"
+      }
+    ]
+  },
+  "Entities": [
+    {
+      "Id": "4750f5ac-7044-4d50-8dc9-b66aaf15d82a",
+      "EntityType": "Entity",
+      "Name": "喜多",
+      "MetamodelId": "d621758a-c980-4485-8a74-e847bc0249d1",
+      "Metamodel": "担当者",
+      "Fields": {
+        "Name": "喜多",
+        "PCユーザー名": "1004200489"
+      }
+    },
+    {
+      "Id": "517950da-76de-4bba-9879-42d1527457c5",
+      "EntityType": "Entity",
+      "Name": "若松",
+      "MetamodelId": "d621758a-c980-4485-8a74-e847bc0249d1",
+      "Metamodel": "担当者",
+      "Fields": {
+        "Name": "若松",
+        "PCユーザー名": "10042000591"
+      }
+    },
+    {
+      "Id": "a2140cf8-68fb-4734-b3dd-c9f0f1eae861",
+      "EntityType": "Entity",
+      "Name": "担当者定義",
+      "MetamodelId": "19fed313-9009-4907-b0ab-aedeabe6b90b",
+      "Metamodel": "担当者定義",
+      "Fields": {
+        "Name": "担当者定義"
+      }
+    },
+    {
+      "Id": "a428a186-5ceb-4edc-9d89-d670bab38a62",
+      "EntityType": null,
+      "Name": "MRN向け軽量デジタル化システム試行",
+      "MetamodelId": "System.Project.ProjectClass",
+      "Metamodel": "ProjectClass",
+      "Fields": {
+        "Name": "MRN向け軽量デジタル化システム試行",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "EntityType": null,
+      "Name": "MRN向け軽量デジタル化システム試行",
+      "MetamodelId": "System.Design.___DesignModel",
+      "Metamodel": "DesignModel",
+      "Fields": {
+        "Name": "MRN向け軽量デジタル化システム試行"
+      }
+    }
+  ],
+  "Relations": [
+    {
+      "Id": "161a0629-b76e-44f7-9808-d5f0c16a7f28",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Design.___RootToEntities",
+      "Metamodel": "___RootToEntities",
+      "SourceId": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "TargetId": "a2140cf8-68fb-4734-b3dd-c9f0f1eae861",
+      "SourceIndex": 2,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "35f373e5-9e41-4e00-9e3d-ecaa66b139cd",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Design.___RootToEntities",
+      "Metamodel": "___RootToEntities",
+      "SourceId": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "TargetId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "4a452ffe-0e1c-4ce6-a4f1-da503fc3333e",
+      "RelationType": "Embed",
+      "MetamodelId": "7d4a1809-be16-4876-8773-d0e750f70ebf",
+      "Metamodel": "担当者の所有",
+      "SourceId": "a2140cf8-68fb-4734-b3dd-c9f0f1eae861",
+      "TargetId": "4750f5ac-7044-4d50-8dc9-b66aaf15d82a",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "946e7a6d-71dc-4158-ab00-7de02843313a",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Design.___RootToEntities",
+      "Metamodel": "___RootToEntities",
+      "SourceId": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "TargetId": "9cb870be-668a-4f6e-902f-28e378668aee",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "991de7db-2035-4c7d-bf60-4184510f831c",
+      "RelationType": "Embed",
+      "MetamodelId": "7d4a1809-be16-4876-8773-d0e750f70ebf",
+      "Metamodel": "担当者の所有",
+      "SourceId": "a2140cf8-68fb-4734-b3dd-c9f0f1eae861",
+      "TargetId": "517950da-76de-4bba-9879-42d1527457c5",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "d70ac627-49f5-484d-ace8-cbd732ec292a",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Core.___ModelRoot_RootModels",
+      "Metamodel": "___ModelRoot_RootModels",
+      "SourceId": "a428a186-5ceb-4edc-9d89-d670bab38a62",
+      "TargetId": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "TargetIndex": -1
+    }
+  ]
+}
