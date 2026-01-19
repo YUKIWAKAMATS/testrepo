@@ -1,0 +1,58 @@
+{
+  "Type": "Model",
+  "TopElementId": "93142748-ad84-464c-9478-b42a3d58bc3f",
+  "SchemaVersion": "13.0",
+  "Entities": [
+    {
+      "Id": "12ce9d4a-327a-4f6f-9b87-1402c1b94483",
+      "EntityType": "Entity",
+      "Name": "ドメインタグ",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "ドメインタグ"
+      }
+    },
+    {
+      "Id": "93142748-ad84-464c-9478-b42a3d58bc3f",
+      "EntityType": "Entity",
+      "Name": "タグ定義",
+      "MetamodelId": "82dde244-eb34-495a-8ab2-3e9f66dab41a",
+      "Metamodel": "タグ定義",
+      "Fields": {
+        "Name": "タグ定義"
+      }
+    },
+    {
+      "Id": "bce81b4d-5e1c-4da2-a25c-09d7a6fb347b",
+      "EntityType": "Entity",
+      "Name": "プロセスタグ",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "プロセスタグ"
+      }
+    }
+  ],
+  "Relations": [
+    {
+      "Id": "3df29734-d09d-4986-9d53-35055c1bbc46",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "93142748-ad84-464c-9478-b42a3d58bc3f",
+      "TargetId": "12ce9d4a-327a-4f6f-9b87-1402c1b94483",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "791cd4d8-2f89-4aee-8286-90916081a1f2",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "93142748-ad84-464c-9478-b42a3d58bc3f",
+      "TargetId": "bce81b4d-5e1c-4da2-a25c-09d7a6fb347b",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    }
+  ]
+}

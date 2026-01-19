@@ -1,0 +1,876 @@
+{
+  "Type": "Model",
+  "TopElementId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+  "SchemaVersion": "13.0",
+  "Entities": [
+    {
+      "Id": "157aef33-cedf-49cd-a6ae-83ed6ad59442",
+      "EntityType": "Entity",
+      "Name": "ディスプレイ",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "ディスプレイ",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "15b14fe8-9d1a-4c56-bc6d-f66172d70d09",
+      "EntityType": "Entity",
+      "Name": "システム",
+      "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+      "Metamodel": "自由タグ",
+      "Fields": {
+        "Name": "システム",
+        "Description": "あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ"
+      }
+    },
+    {
+      "Id": "17fa55f0-cd36-47c0-942f-6773c92da287",
+      "EntityType": "Entity",
+      "Name": "スイッチ類",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "スイッチ類",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "3a8b890c-58bb-44e3-8345-d452fe332aee",
+      "EntityType": "Entity",
+      "Name": "プロペラ",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "プロペラ",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "3b94a406-de2d-4a91-a6a0-57eff082b8f2",
+      "EntityType": "Entity",
+      "Name": "リギング系",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "リギング系",
+        "Description": "L1：リギング系"
+      }
+    },
+    {
+      "Id": "3ef28dba-919a-4a94-8552-54aade6ae24e",
+      "EntityType": "Entity",
+      "Name": "リモコン",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "リモコン",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "4063cc6c-562a-461c-9474-ee82584a5866",
+      "EntityType": "Entity",
+      "Name": "システム構成設計",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "システム構成設計",
+        "Description": "2.製品・サービスシステム構成"
+      }
+    },
+    {
+      "Id": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "EntityType": "Entity",
+      "Name": "タグ定義",
+      "MetamodelId": "82dde244-eb34-495a-8ab2-3e9f66dab41a",
+      "Metamodel": "タグ定義",
+      "Fields": {
+        "Name": "タグ定義"
+      }
+    },
+    {
+      "Id": "438b9dd2-35aa-44f4-93de-cd5e454743a6",
+      "EntityType": "Entity",
+      "Name": "ユースケース分析",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "ユースケース分析",
+        "Description": "3-2-2.ユースケース分析"
+      }
+    },
+    {
+      "Id": "48d99deb-7347-4a6d-b052-613802178f71",
+      "EntityType": "Entity",
+      "Name": "船システム",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "船システム",
+        "Description": "L0：船システム"
+      }
+    },
+    {
+      "Id": "4c2bc664-70f9-427c-9362-6210ac1e6f66",
+      "EntityType": "Entity",
+      "Name": "検証項目設計",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "検証項目設計",
+        "Description": "6.L0/L1システム要求の検証項目"
+      }
+    },
+    {
+      "Id": "5089016f-9f0f-40fe-b13b-cc39f1d0b6ff",
+      "EntityType": "Entity",
+      "Name": "AD・認知系",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "AD・認知系",
+        "Description": "L1：AD・認知"
+      }
+    },
+    {
+      "Id": "561dc9a4-fec4-4655-be85-62745b304865",
+      "EntityType": "Entity",
+      "Name": "ワイヤーハーネス",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "ワイヤーハーネス",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "5ea77d47-a080-46af-9fce-d4492ce3c40a",
+      "EntityType": "Entity",
+      "Name": "パワーユニット",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "パワーユニット",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "60c20bc2-2635-442b-a803-0275064590ee",
+      "EntityType": "Entity",
+      "Name": "PTT",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "PTT",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "65b6fd33-21fc-4c3d-82fd-70240c9dbb9c",
+      "EntityType": "Entity",
+      "Name": "要求ツリー",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "要求ツリー",
+        "Description": "3-3.要求ツリー"
+      }
+    },
+    {
+      "Id": "66a58007-5b9f-4047-b28a-af7f1cbbeb03",
+      "EntityType": "Entity",
+      "Name": "ヘルム",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "ヘルム",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "6910fee9-0303-435f-99d5-90fe004e37c5",
+      "EntityType": "Entity",
+      "Name": "要求分析",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "要求分析",
+        "Description": "3-2-1.業務・システム分析"
+      }
+    },
+    {
+      "Id": "6d165b2b-5d7c-49c2-817c-d2e074e1783f",
+      "EntityType": "Entity",
+      "Name": "管理",
+      "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+      "Metamodel": "自由タグ",
+      "Fields": {
+        "Name": "管理"
+      }
+    },
+    {
+      "Id": "735d6875-cfa6-48f2-b641-74ad54cf14de",
+      "EntityType": "Entity",
+      "Name": "運動系",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "運動系",
+        "Description": "L1：運動系"
+      }
+    },
+    {
+      "Id": "7b081981-afa2-4912-965a-a3172892197c",
+      "EntityType": "Entity",
+      "Name": "論理アーキ設計",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "論理アーキ設計",
+        "Description": "3-4.論理アーキテクチャ設計"
+      }
+    },
+    {
+      "Id": "7b932953-6c64-4c9f-b59b-93396bbbc043",
+      "EntityType": "Entity",
+      "Name": "要求",
+      "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+      "Metamodel": "自由タグ",
+      "Fields": {
+        "Name": "要求"
+      }
+    },
+    {
+      "Id": "7cd44c38-9b3e-4af1-a4ed-7286c1ad748b",
+      "EntityType": "Entity",
+      "Name": "LiDAR",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "LiDAR",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "89b3fd0d-4db1-4172-accf-ac4dd157dfc9",
+      "EntityType": "Entity",
+      "Name": "物理アーキ設計",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "物理アーキ設計",
+        "Description": "4.物理アーキテクチャへの機能配置"
+      }
+    },
+    {
+      "Id": "8ab82f35-fcb1-44e0-8c8f-5a6bba5565db",
+      "EntityType": "Entity",
+      "Name": "エネルギープラント系",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "エネルギープラント系",
+        "Description": "L1：エネルギープラント系"
+      }
+    },
+    {
+      "Id": "9446c061-c487-4dc5-9130-0b375c44b87e",
+      "EntityType": "Entity",
+      "Name": "IMU",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "IMU",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "9537f5d9-46a3-4cf3-a178-b9ac5de07eec",
+      "EntityType": "Entity",
+      "Name": "補機PU",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "補機PU",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "963efcdd-71bf-4d19-80b4-65d11cf3a37f",
+      "EntityType": "Entity",
+      "Name": "カメラ",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "カメラ",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "b4e6fc59-8782-48d3-9025-096a08db4f17",
+      "EntityType": "Entity",
+      "Name": "分析",
+      "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+      "Metamodel": "自由タグ",
+      "Fields": {
+        "Name": "分析"
+      }
+    },
+    {
+      "Id": "bb76c16a-e83a-4203-893f-7350a3132bd4",
+      "EntityType": "Entity",
+      "Name": "レーダー",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "レーダー",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "bc666b8b-0a32-41b8-95c1-adc715ccf672",
+      "EntityType": "Entity",
+      "Name": "要望・要求管理",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "要望・要求管理",
+        "Description": "3-1.要望・要求の管理"
+      }
+    },
+    {
+      "Id": "ce809d76-789a-495c-bf3f-ffa2eeb494cd",
+      "EntityType": "Entity",
+      "Name": "IoTデバイス",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "IoTデバイス",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "ce8ccaf7-4011-4f23-ab73-e5f48d7f5c4b",
+      "EntityType": "Entity",
+      "Name": "HMI系",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "HMI系",
+        "Description": "L1：HMI"
+      }
+    },
+    {
+      "Id": "ceaf107d-4a3b-4668-9709-e5655d2dbcd8",
+      "EntityType": "Entity",
+      "Name": "GNSS",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "GNSS",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "ceafd67e-4ae1-4d2a-9502-9d2e81db846e",
+      "EntityType": "Entity",
+      "Name": "ジャックプレート",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "ジャックプレート",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "d1df9ce1-0824-467d-a400-e6f9b65aac71",
+      "EntityType": "Entity",
+      "Name": "シフト",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "シフト",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "da4b97ed-97f7-4cab-b3ea-422c5fc35f1e",
+      "EntityType": "Entity",
+      "Name": "バッテリ",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "バッテリ",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "dab37725-35c4-48af-9d22-6cb35d6d9ba7",
+      "EntityType": "Entity",
+      "Name": "振る舞い設計",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "振る舞い設計",
+        "Description": "3-5.状態遷移設計"
+      }
+    },
+    {
+      "Id": "db95d6b2-2e47-4926-9921-1c222d2b682a",
+      "EntityType": "Entity",
+      "Name": "ソフト要求定義",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "ソフト要求定義",
+        "Description": "5.ソフトウェア要求の振る舞い"
+      }
+    },
+    {
+      "Id": "dd984804-d303-4360-9a1b-6c982a39a4e0",
+      "EntityType": "Entity",
+      "Name": "システム開発背景",
+      "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+      "Metamodel": "プロセスタグ",
+      "Fields": {
+        "Name": "システム開発背景",
+        "Description": "0.背景、現状システムの課題\r\n\r\n1.製品・サービスシステムの目的/目標"
+      }
+    },
+    {
+      "Id": "e4f5a2b6-5dca-49a3-b30e-1e03d115c894",
+      "EntityType": "Entity",
+      "Name": "ブザー",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "ブザー",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "fba730d3-54cc-4f95-ac2f-d9b4809e2720",
+      "EntityType": "Entity",
+      "Name": "ステアリング",
+      "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+      "Metamodel": "ドメインタグ",
+      "Fields": {
+        "Name": "ステアリング",
+        "Description": ""
+      }
+    }
+  ],
+  "Relations": [
+    {
+      "Id": "03bd6c18-fa45-4098-ad6c-46e7b55b987c",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "bb76c16a-e83a-4203-893f-7350a3132bd4",
+      "SourceIndex": 18,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "045b04cf-3b10-46fb-a02e-aa0b0150fdb8",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "9446c061-c487-4dc5-9130-0b375c44b87e",
+      "SourceIndex": 20,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "0556916b-d992-42be-ad92-f81011896f48",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "5089016f-9f0f-40fe-b13b-cc39f1d0b6ff",
+      "SourceIndex": 12,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "075561e5-60eb-4e7b-bf90-f0cc7f478530",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "48d99deb-7347-4a6d-b052-613802178f71",
+      "SourceIndex": 11,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "0acc6cd3-974f-44af-a3f9-d4b1eb3d6cf5",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "89b3fd0d-4db1-4172-accf-ac4dd157dfc9",
+      "SourceIndex": 8,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "0e2557e2-9ac9-4ff6-9f0f-72e40b915f51",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "ce809d76-789a-495c-bf3f-ffa2eeb494cd",
+      "SourceIndex": 28,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "1120bf30-1ecd-4ea1-ada4-7d43fcd56566",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "8ab82f35-fcb1-44e0-8c8f-5a6bba5565db",
+      "SourceIndex": 15,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "189bffa0-b38d-4e73-bcd0-a5a579d170fc",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "ce8ccaf7-4011-4f23-ab73-e5f48d7f5c4b",
+      "SourceIndex": 13,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "1df550dc-726a-4fb0-8213-0d7d404f6952",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "15b14fe8-9d1a-4c56-bc6d-f66172d70d09",
+      "SourceIndex": 37,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "1ffd28bf-ce6a-47f5-a856-141703b87623",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "5ea77d47-a080-46af-9fce-d4492ce3c40a",
+      "SourceIndex": 32,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "2685dfd8-0b46-41a1-95e0-2613c0bbc8e4",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "9537f5d9-46a3-4cf3-a178-b9ac5de07eec",
+      "SourceIndex": 30,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "2a0bba65-3624-4651-87ad-0e71416bf805",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "65b6fd33-21fc-4c3d-82fd-70240c9dbb9c",
+      "SourceIndex": 5,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "37c856ed-ae4d-4b9c-8945-eca69f21424a",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "7cd44c38-9b3e-4af1-a4ed-7286c1ad748b",
+      "SourceIndex": 19,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "38a2cdd2-3585-49c8-9817-c572900683b0",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "735d6875-cfa6-48f2-b641-74ad54cf14de",
+      "SourceIndex": 16,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "3b2e1ee5-1865-427c-aace-632f548527f6",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "ceaf107d-4a3b-4668-9709-e5655d2dbcd8",
+      "SourceIndex": 21,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "4777bc57-9028-4db9-bf09-698384e4f041",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "4063cc6c-562a-461c-9474-ee82584a5866",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "657ff40b-1afe-4fc6-9aef-0be0870286fb",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "4c2bc664-70f9-427c-9362-6210ac1e6f66",
+      "SourceIndex": 10,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "664d203f-c839-4230-8c92-e2907045270f",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "3b94a406-de2d-4a91-a6a0-57eff082b8f2",
+      "SourceIndex": 14,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "6fb3463e-6572-407f-836e-c5d76aefbb1a",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "d1df9ce1-0824-467d-a400-e6f9b65aac71",
+      "SourceIndex": 31,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "80bd7615-03d3-4d42-9bf2-c8ad30870f2c",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "60c20bc2-2635-442b-a803-0275064590ee",
+      "SourceIndex": 34,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "85c68b95-d2ab-4d5c-995b-0922fc8fbad2",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "3a8b890c-58bb-44e3-8345-d452fe332aee",
+      "SourceIndex": 36,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "87da02fa-2989-4d58-a414-90f694b3acfa",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "66a58007-5b9f-4047-b28a-af7f1cbbeb03",
+      "SourceIndex": 25,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "9b2f7ee8-1ac3-4e94-a49a-65a381730cd8",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "da4b97ed-97f7-4cab-b3ea-422c5fc35f1e",
+      "SourceIndex": 29,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "9d75cbf1-2c20-4ee8-b2fb-ecc1a321219f",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "db95d6b2-2e47-4926-9921-1c222d2b682a",
+      "SourceIndex": 9,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "9ff58e38-f86d-4701-8cc7-75d58e85fabd",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "963efcdd-71bf-4d19-80b4-65d11cf3a37f",
+      "SourceIndex": 17,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "a3a91a95-d6fd-4408-83be-9632d15a7198",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "7b081981-afa2-4912-965a-a3172892197c",
+      "SourceIndex": 6,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "ab50f190-b3ef-4e6b-9a55-753dd365faa4",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "dd984804-d303-4360-9a1b-6c982a39a4e0",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "abc897d4-3176-4ef8-ab45-df1886bf14b2",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "3ef28dba-919a-4a94-8552-54aade6ae24e",
+      "SourceIndex": 23,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "ac35981b-bf2b-401a-b13f-c02cfc81b181",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "561dc9a4-fec4-4655-be85-62745b304865",
+      "SourceIndex": 27,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "af06eddb-2794-4c54-828d-bbcdf736280d",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "e4f5a2b6-5dca-49a3-b30e-1e03d115c894",
+      "SourceIndex": 26,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "b9e3cac7-b95d-4943-8445-203bce9b749b",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "17fa55f0-cd36-47c0-942f-6773c92da287",
+      "SourceIndex": 24,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "bf4900e5-1440-4b27-bfe0-82f8fd2a4ba5",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "b4e6fc59-8782-48d3-9025-096a08db4f17",
+      "SourceIndex": 38,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "c2f3ea5a-822c-45be-a7d4-cf1105d3c230",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "6d165b2b-5d7c-49c2-817c-d2e074e1783f",
+      "SourceIndex": 39,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "c335fafa-c9f0-4600-8564-d2d0c6370d82",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "7b932953-6c64-4c9f-b59b-93396bbbc043",
+      "SourceIndex": 40,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "c347928b-0ebb-474d-bc41-9d254aad5616",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "6910fee9-0303-435f-99d5-90fe004e37c5",
+      "SourceIndex": 3,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "c61c26bb-2e3c-497a-8ae9-912c038188b4",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "ceafd67e-4ae1-4d2a-9502-9d2e81db846e",
+      "SourceIndex": 35,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "c6589695-0e92-4387-b9a2-a66d890a002c",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "157aef33-cedf-49cd-a6ae-83ed6ad59442",
+      "SourceIndex": 22,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "d8c31e27-2667-40be-8555-22b9147809e1",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "438b9dd2-35aa-44f4-93de-cd5e454743a6",
+      "SourceIndex": 4,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "dc3c5c19-9bc3-4d2c-9adb-7c308d4995bd",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "dab37725-35c4-48af-9d22-6cb35d6d9ba7",
+      "SourceIndex": 7,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "df9639ef-d8b2-4a49-aad4-45296e24655a",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "fba730d3-54cc-4f95-ac2f-d9b4809e2720",
+      "SourceIndex": 33,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "f1dc4246-f698-4f80-b7a0-ee887c38d348",
+      "RelationType": "Embed",
+      "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+      "Metamodel": "タグの所有",
+      "SourceId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "TargetId": "bc666b8b-0a32-41b8-95c1-adc715ccf672",
+      "SourceIndex": 2,
+      "TargetIndex": -1
+    }
+  ]
+}

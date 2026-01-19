@@ -1,0 +1,39 @@
+{
+  "Type": "Model",
+  "TopElementId": "207210ec-0f1d-4316-a2f4-184992358041",
+  "SchemaVersion": "13.0",
+  "Entities": [
+    {
+      "Id": "207210ec-0f1d-4316-a2f4-184992358041",
+      "EntityType": "Entity",
+      "Name": "メンバ定義",
+      "MetamodelId": "3eb17df6-40e2-4e0d-adf7-160c22fc05ae",
+      "Metamodel": "メンバ定義",
+      "Fields": {
+        "Name": "メンバ定義"
+      }
+    },
+    {
+      "Id": "225b84ad-229f-4e66-8ca9-d3df1cc5a9de",
+      "EntityType": "Entity",
+      "Name": "若松",
+      "MetamodelId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+      "Metamodel": "メンバ",
+      "Fields": {
+        "Name": "若松",
+        "PCユーザー名": "10042000591"
+      }
+    }
+  ],
+  "Relations": [
+    {
+      "Id": "e74b40a8-545a-4650-8132-870f9da56670",
+      "RelationType": "Embed",
+      "MetamodelId": "e2d7394c-a67e-4171-bb1e-7401fc708e6b",
+      "Metamodel": "メンバの所有",
+      "SourceId": "207210ec-0f1d-4316-a2f4-184992358041",
+      "TargetId": "225b84ad-229f-4e66-8ca9-d3df1cc5a9de",
+      "TargetIndex": -1
+    }
+  ]
+}

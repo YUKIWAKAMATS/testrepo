@@ -1,0 +1,2764 @@
+{
+  "Type": "Profile",
+  "TopElementId": "e47866ca-679d-459d-b6a7-dd6525bd010a",
+  "SchemaVersion": "13.0",
+  "Profiles": [
+    {
+      "Id": "e47866ca-679d-459d-b6a7-dd6525bd010a",
+      "Name": "軽量デジタル化フレームワーク",
+      "DisplayName": "軽量デジタル化フレームワーク",
+      "Version": "0.1.1",
+      "IsProtected": false,
+      "Metamodels": {
+        "Packages": [
+          {
+            "Id": "System",
+            "Name": "System",
+            "FullName": "System"
+          },
+          {
+            "Id": "System.Behavior",
+            "Name": "Behavior",
+            "FullName": "System.Behavior"
+          },
+          {
+            "Id": "DensoCreate",
+            "Name": "DensoCreate",
+            "FullName": "DensoCreate"
+          },
+          {
+            "Id": "DensoCreate.Indio",
+            "Name": "Indio",
+            "FullName": "DensoCreate.Indio"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF",
+            "Name": "IMF",
+            "FullName": "DensoCreate.Indio.IMF"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF.Model",
+            "Name": "Model",
+            "FullName": "DensoCreate.Indio.IMF.Model"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF.Model.RepresentationModel",
+            "Name": "RepresentationModel",
+            "FullName": "DensoCreate.Indio.IMF.Model.RepresentationModel"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF.Extensions",
+            "Name": "Extensions",
+            "FullName": "DensoCreate.Indio.IMF.Extensions"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF.Extensions.Diagram",
+            "Name": "Diagram",
+            "FullName": "DensoCreate.Indio.IMF.Extensions.Diagram"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF.Extensions.Sequence",
+            "Name": "Sequence",
+            "FullName": "DensoCreate.Indio.IMF.Extensions.Sequence"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF.Extensions.Form",
+            "Name": "Form",
+            "FullName": "DensoCreate.Indio.IMF.Extensions.Form"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF.Extensions.ProductLine",
+            "Name": "ProductLine",
+            "FullName": "DensoCreate.Indio.IMF.Extensions.ProductLine"
+          },
+          {
+            "Id": "DensoCreate.Indio.IMF.Extensions.Custom",
+            "Name": "Custom",
+            "FullName": "DensoCreate.Indio.IMF.Extensions.Custom"
+          },
+          {
+            "Id": "b0b0bee4-cb12-479d-b60b-28c3d98887dd",
+            "Name": "軽量デジタル化フレームワーク",
+            "FullName": "軽量デジタル化フレームワーク",
+            "DisplayName": "軽量デジタル化フレームワーク",
+            "Tags": [
+              {
+                "Name": "System.Root",
+                "Value": "true"
+              }
+            ]
+          },
+          {
+            "Id": "1c83deed-4deb-4fab-afed-f851369f3947",
+            "Name": "___AnonymousTypePackage",
+            "FullName": "軽量デジタル化フレームワーク.___AnonymousTypePackage",
+            "DisplayName": "匿名型",
+            "OwnedTypes": [
+              {
+                "Id": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_タグ定義_タグ",
+                "IsOneway": true,
+                "DisplayName": "タグの所有",
+                "Target": {
+                  "Id": "23541aec-a5c0-4002-8beb-0e0ccae03612",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_タグ定義_タグ",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.タグ.タグ定義",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "82dde244-eb34-495a-8ab2-3e9f66dab41a"
+                },
+                "Source": {
+                  "Id": "6694539e-118b-4979-b0a1-60f6f4855242",
+                  "RoleType": "RoleChild",
+                  "Name": "タグ",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.タグ.タグ",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "f81dba10-8464-415c-bc79-2294c980c0ca"
+                }
+              },
+              {
+                "Id": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_非形式情報定義_非形式情報",
+                "IsOneway": true,
+                "DisplayName": "非形式情報の所有",
+                "Target": {
+                  "Id": "d8832701-6880-4789-9e7d-1e847a3ed314",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_非形式情報定義_非形式情報",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報定義",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "ed704729-4452-493f-8f30-8b2c97e21c1c"
+                },
+                "Source": {
+                  "Id": "bc1c149f-a9a8-433d-a42a-d53bd7ec7725",
+                  "RoleType": "RoleChild",
+                  "Name": "非構造化情報",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb"
+                }
+              },
+              {
+                "Id": "6209cc7d-21f3-4a15-80d6-aba8fc275283",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_形式情報定義_形式情報",
+                "IsOneway": true,
+                "DisplayName": "形式情報の所有",
+                "Target": {
+                  "Id": "45399fab-a850-4b43-a841-bfafbc50cdee",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_形式情報定義_形式情報",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.構造化情報.構造化情報定義",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "a740f76d-ccb4-4843-9411-4a550068cfe1"
+                },
+                "Source": {
+                  "Id": "ee00e5ef-dba5-427a-919a-3f08817f81d6",
+                  "RoleType": "RoleChild",
+                  "Name": "構造化情報",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.構造化情報.構造化情報",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "009a2a20-4699-4405-8817-1ab012cba15a"
+                }
+              },
+              {
+                "Id": "e2d7394c-a67e-4171-bb1e-7401fc708e6b",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_メンバ定義_メンバ",
+                "IsOneway": true,
+                "DisplayName": "メンバの所有",
+                "Target": {
+                  "Id": "e68240e5-445a-4349-943a-68e019bc13ac",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_メンバ定義_メンバ",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.メンバ.メンバ定義",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "3eb17df6-40e2-4e0d-adf7-160c22fc05ae"
+                },
+                "Source": {
+                  "Id": "1b9a1eae-6e65-4f7b-bed3-29d0ab79d8d3",
+                  "RoleType": "RoleChild",
+                  "Name": "メンバ",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.メンバ.メンバ",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "67d7914f-be9c-4b9d-a7ee-61bf6279e196",
+            "Name": "非構造化情報",
+            "FullName": "軽量デジタル化フレームワーク.非構造化情報",
+            "DisplayName": "非構造化情報",
+            "OwnedTypes": [
+              {
+                "Id": "ed704729-4452-493f-8f30-8b2c97e21c1c",
+                "TypeKind": "Class",
+                "Name": "非構造化情報定義",
+                "DisplayName": "非構造化情報定義",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://software/database"
+                  },
+                  {
+                    "Name": "System.ModelRoot",
+                    "Value": "True"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "d856c7b3-2222-44b9-9e22-949f1ad25408",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "cadcca53-43db-43b5-9546-8f8821a50831",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "bc1c149f-a9a8-433d-a42a-d53bd7ec7725",
+                    "FieldType": "Property",
+                    "Name": "非構造化情報",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb",
+                    "DisplayName": "非構造化情報"
+                  }
+                ]
+              },
+              {
+                "Id": "355118a1-c6c1-412c-9758-f158c851afcb",
+                "TypeKind": "Class",
+                "Name": "非構造化情報",
+                "Abstract": true,
+                "DisplayName": "非構造化情報",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "46ed5cdf-deed-4723-b33e-516444d408a3",
+                    "FieldType": "Reference",
+                    "Name": "タグ",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.タグ.タグ",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "f81dba10-8464-415c-bc79-2294c980c0ca",
+                    "DisplayName": "タグ"
+                  },
+                  {
+                    "Id": "d8832701-6880-4789-9e7d-1e847a3ed314",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_非形式情報定義_非形式情報",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報定義",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "ed704729-4452-493f-8f30-8b2c97e21c1c",
+                    "DisplayName": "親非形式情報定義"
+                  },
+                  {
+                    "Id": "f65a24d6-7f55-41a0-a941-cef2fbf82c5c",
+                    "FieldType": "Property",
+                    "Name": "登録ユーザー名",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "登録ユーザー名"
+                  },
+                  {
+                    "Id": "5d0b4ff6-6ccf-4814-b317-080b9d632978",
+                    "FieldType": "Property",
+                    "Name": "登録日",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "登録日"
+                  },
+                  {
+                    "Id": "f18d9506-01d0-4a4e-a6e3-3d7e3025a083",
+                    "FieldType": "Reference",
+                    "Name": "関連情報",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "6a6360db-16a3-40b8-ba16-337c5642431f",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb",
+                    "DisplayName": "関連情報"
+                  },
+                  {
+                    "Id": "a124d512-fc53-490f-b722-d87bab348253",
+                    "FieldType": "Reference",
+                    "Name": "_関連情報",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "6a6360db-16a3-40b8-ba16-337c5642431f",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb",
+                    "DisplayName": "_関連情報"
+                  },
+                  {
+                    "Id": "5d8f4a93-dae3-489a-8f77-24d28bc320b7",
+                    "FieldType": "Reference",
+                    "Name": "登録者に基づくメンバ名",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "b3f51f33-9ecb-4e2f-926d-35a956611992",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.メンバ.メンバ",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+                    "DisplayName": "登録者"
+                  }
+                ]
+              },
+              {
+                "Id": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+                "TypeKind": "Class",
+                "Name": "ファイル",
+                "DisplayName": "ファイル",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://document/document"
+                  }
+                ],
+                "Extends": [
+                  "355118a1-c6c1-412c-9758-f158c851afcb"
+                ],
+                "Fields": [
+                  {
+                    "Id": "de4bf299-fdc5-4a3a-a030-ed245631cb36",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "2d24f319-edcc-481f-801a-01128ab8c681",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "48fe841f-fa44-4b44-b2f9-d7b2a1ca07b1",
+                    "FieldType": "Property",
+                    "Name": "格納先",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "格納先"
+                  }
+                ]
+              },
+              {
+                "Id": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
+                "TypeKind": "RefRelationship",
+                "Name": "非構造化情報からタグへの参照",
+                "IsOneway": true,
+                "DisplayName": "非構造化情報からタグへの参照",
+                "Fields": [
+                  {
+                    "Id": "ef5b96c1-5bfe-4c2a-bfd2-f7d1bf84bc4b",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "c7802c3d-06ef-485a-952c-a31ff635ea5b",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  }
+                ],
+                "Target": {
+                  "Id": "9bcc8e62-df77-415f-a272-972a43aa663f",
+                  "RoleType": "RoleFrom",
+                  "Name": "タグ付けされた情報",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb"
+                },
+                "Source": {
+                  "Id": "46ed5cdf-deed-4723-b33e-516444d408a3",
+                  "RoleType": "RoleTo",
+                  "Name": "タグ",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.タグ.タグ",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "f81dba10-8464-415c-bc79-2294c980c0ca"
+                }
+              },
+              {
+                "Id": "6a6360db-16a3-40b8-ba16-337c5642431f",
+                "TypeKind": "RefRelationship",
+                "Name": "非構造化情報から非構造化情報への参照",
+                "IsOneway": true,
+                "DisplayName": "非構造化情報から非構造化情報への参照",
+                "Fields": [
+                  {
+                    "Id": "0694e932-64ec-4a50-a33d-1862c1cf4d1c",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "6720d91a-2977-46f2-af20-04608e7c896e",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  }
+                ],
+                "Target": {
+                  "Id": "a124d512-fc53-490f-b722-d87bab348253",
+                  "RoleType": "RoleFrom",
+                  "Name": "_関連情報",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb"
+                },
+                "Source": {
+                  "Id": "f18d9506-01d0-4a4e-a6e3-3d7e3025a083",
+                  "RoleType": "RoleTo",
+                  "Name": "関連情報",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb"
+                }
+              },
+              {
+                "Id": "b3f51f33-9ecb-4e2f-926d-35a956611992",
+                "TypeKind": "RefRelationship",
+                "Name": "refrelationship_非構造化情報_to_メンバ",
+                "IsOneway": true,
+                "DisplayName": "非構造化情報からメンバへの参照",
+                "Fields": [
+                  {
+                    "Id": "f6fdc819-9aaa-4563-8302-d7c31bc9cced",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "43cdba92-0684-4692-80ba-f24559b69311",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  }
+                ],
+                "Target": {
+                  "Id": "f2dfb614-1b60-4200-9771-91106b9949b4",
+                  "RoleType": "RoleFrom",
+                  "Name": "非構造化情報",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb"
+                },
+                "Source": {
+                  "Id": "5d8f4a93-dae3-489a-8f77-24d28bc320b7",
+                  "RoleType": "RoleTo",
+                  "Name": "登録者に基づくメンバ名",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "軽量デジタル化フレームワーク.メンバ.メンバ",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "1a444345-4078-4b10-b9f1-c216b32217b5",
+            "Name": "タグ",
+            "FullName": "軽量デジタル化フレームワーク.タグ",
+            "DisplayName": "タグ",
+            "OwnedTypes": [
+              {
+                "Id": "82dde244-eb34-495a-8ab2-3e9f66dab41a",
+                "TypeKind": "Class",
+                "Name": "タグ定義",
+                "DisplayName": "タグ定義",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://document/book_bluegray"
+                  },
+                  {
+                    "Name": "System.ModelRoot",
+                    "Value": "True"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "4adc98ab-88ec-4726-89be-889f835087a0",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "42dd87c0-9777-4884-a93b-4cef091e7917",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "6694539e-118b-4979-b0a1-60f6f4855242",
+                    "FieldType": "Property",
+                    "Name": "タグ",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.タグ.タグ",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "f81dba10-8464-415c-bc79-2294c980c0ca",
+                    "DisplayName": "タグ"
+                  }
+                ]
+              },
+              {
+                "Id": "f81dba10-8464-415c-bc79-2294c980c0ca",
+                "TypeKind": "Class",
+                "Name": "タグ",
+                "Abstract": true,
+                "DisplayName": "タグ",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://document/label_bluegray"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "9bcc8e62-df77-415f-a272-972a43aa663f",
+                    "FieldType": "Reference",
+                    "Name": "タグ付けされた情報",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb",
+                    "DisplayName": "タグ付けされた情報"
+                  },
+                  {
+                    "Id": "23541aec-a5c0-4002-8beb-0e0ccae03612",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_タグ定義_タグ",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.タグ.タグ定義",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "82dde244-eb34-495a-8ab2-3e9f66dab41a",
+                    "DisplayName": "親タグ定義"
+                  }
+                ]
+              },
+              {
+                "Id": "7a15972a-355e-4d55-93db-8289c96e0f64",
+                "TypeKind": "Class",
+                "Name": "ドメインタグ",
+                "DisplayName": "ドメインタグ",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://document/label_blue"
+                  }
+                ],
+                "Extends": [
+                  "f81dba10-8464-415c-bc79-2294c980c0ca"
+                ],
+                "Fields": [
+                  {
+                    "Id": "169c43a0-7649-4731-9223-6046a54b200e",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "0dfa51dc-9cb0-40b8-b0cf-e0e91f0148f7",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Id": "fbd7e06f-4237-4a65-9043-8261822a4316",
+                "TypeKind": "Class",
+                "Name": "プロセスタグ",
+                "DisplayName": "プロセスタグ",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://document/label_red"
+                  }
+                ],
+                "Extends": [
+                  "f81dba10-8464-415c-bc79-2294c980c0ca"
+                ],
+                "Fields": [
+                  {
+                    "Id": "35e4c7ab-1bf3-43af-af61-b28c3dca66a5",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "9bcce3cf-2807-460d-86c9-5434127717a2",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Id": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+                "TypeKind": "Class",
+                "Name": "自由タグ",
+                "DisplayName": "自由タグ",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://document/label_yellow"
+                  }
+                ],
+                "Extends": [
+                  "f81dba10-8464-415c-bc79-2294c980c0ca"
+                ],
+                "Fields": [
+                  {
+                    "Id": "146a89bd-2879-47ca-913f-36a307b1cac7",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "5e18003c-aa11-4012-8293-09fe7c1dac67",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Id": "d80b6ad6-42d3-4c29-a5ad-e7e5be10a828",
+            "Name": "構造化情報",
+            "FullName": "軽量デジタル化フレームワーク.構造化情報",
+            "DisplayName": "構造化情報",
+            "OwnedTypes": [
+              {
+                "Id": "a740f76d-ccb4-4843-9411-4a550068cfe1",
+                "TypeKind": "Class",
+                "Name": "構造化情報定義",
+                "DisplayName": "構造化情報定義",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://object/object9"
+                  },
+                  {
+                    "Name": "System.ModelRoot",
+                    "Value": "True"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "fad1281e-aab1-4d29-b549-30baf9689b5e",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "c73a2c19-bc5c-4f57-952f-0d3fc4e8c924",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "ee00e5ef-dba5-427a-919a-3f08817f81d6",
+                    "FieldType": "Property",
+                    "Name": "構造化情報",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "6209cc7d-21f3-4a15-80d6-aba8fc275283",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.構造化情報.構造化情報",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "009a2a20-4699-4405-8817-1ab012cba15a",
+                    "DisplayName": "構造化情報"
+                  }
+                ]
+              },
+              {
+                "Id": "009a2a20-4699-4405-8817-1ab012cba15a",
+                "TypeKind": "Class",
+                "Name": "構造化情報",
+                "DisplayName": "構造化情報",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "45399fab-a850-4b43-a841-bfafbc50cdee",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_形式情報定義_形式情報",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "6209cc7d-21f3-4a15-80d6-aba8fc275283",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.構造化情報.構造化情報定義",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "a740f76d-ccb4-4843-9411-4a550068cfe1",
+                    "DisplayName": "親形式情報定義"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Id": "111ec259-6731-4804-8d67-32986a13de8d",
+            "Name": "デジタル化レポート",
+            "FullName": "軽量デジタル化フレームワーク.デジタル化レポート",
+            "DisplayName": "デジタル化レポート",
+            "OwnedTypes": [
+              {
+                "Id": "487b4bb8-2349-4dfd-9526-e3ba94748a04",
+                "TypeKind": "Class",
+                "Name": "デジタル化レポート",
+                "DisplayName": "デジタル化レポート",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "res://3e4cfdc8-dad1-4d21-8143-acb0de068bc6"
+                  },
+                  {
+                    "Name": "System.ModelRoot",
+                    "Value": "True"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "16976ce8-1fa8-42ef-9173-9af60784990b",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "b30a3fb0-987f-478c-8162-d244ee443201",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Id": "0cce75ef-52fc-419c-ae45-86d1d59fb75d",
+            "Name": "メンバ",
+            "FullName": "軽量デジタル化フレームワーク.メンバ",
+            "DisplayName": "メンバ",
+            "OwnedTypes": [
+              {
+                "Id": "3eb17df6-40e2-4e0d-adf7-160c22fc05ae",
+                "TypeKind": "Class",
+                "Name": "メンバ定義",
+                "DisplayName": "メンバ定義",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://software/team"
+                  },
+                  {
+                    "Name": "System.ModelRoot",
+                    "Value": "True"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "16904118-4f92-40af-8cb1-71209069706c",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "f3648d38-95e0-49e2-b2d4-5696dadc2fbe",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "1b9a1eae-6e65-4f7b-bed3-29d0ab79d8d3",
+                    "FieldType": "Property",
+                    "Name": "メンバ",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "e2d7394c-a67e-4171-bb1e-7401fc708e6b",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.メンバ.メンバ",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+                    "DisplayName": "メンバ"
+                  }
+                ]
+              },
+              {
+                "Id": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+                "TypeKind": "Class",
+                "Name": "メンバ",
+                "DisplayName": "メンバ",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  },
+                  {
+                    "Name": "System.Icon",
+                    "Value": "embed://software/user"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "4783d27b-66f6-4bbe-852b-8d9068d41ae7",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "2a5c595b-15ae-4752-90ea-a797552689e4",
+                    "FieldType": "Property",
+                    "Name": "PCユーザー名",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "PCユーザー名"
+                  },
+                  {
+                    "Id": "e68240e5-445a-4349-943a-68e019bc13ac",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_メンバ定義_メンバ",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "e2d7394c-a67e-4171-bb1e-7401fc708e6b",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.メンバ.メンバ定義",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "3eb17df6-40e2-4e0d-adf7-160c22fc05ae",
+                    "DisplayName": "親メンバ定義"
+                  },
+                  {
+                    "Id": "f2dfb614-1b60-4200-9771-91106b9949b4",
+                    "FieldType": "Reference",
+                    "Name": "非構造化情報",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "b3f51f33-9ecb-4e2f-926d-35a956611992",
+                    "ValueTypeName": "軽量デジタル化フレームワーク.非構造化情報.非構造化情報",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "355118a1-c6c1-412c-9758-f158c851afcb",
+                    "DisplayName": "_非構造化情報"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ViewDefinitions": [
+        {
+          "ViewType": "Form",
+          "Id": "4e241569-1685-48d3-887e-817b668b13d6",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "f81dba10-8464-415c-bc79-2294c980c0ca",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "44709287-f67e-4d7b-b42b-54d5a449c4a4",
+            "Name": "エンティティ_1",
+            "MetamodelId": "f81dba10-8464-415c-bc79-2294c980c0ca",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Grid",
+                "Id": "e4e745ee-c2c3-451b-ac57-7106fd019189",
+                "DisplayName": "_非形式情報",
+                "Name": "_非形式情報",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "タグ付けされた情報",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false,
+                "BulletType": "Number",
+                "RowHeight": "Auto",
+                "Columns": [
+                  {
+                    "ControlType": "GridColumn",
+                    "Id": "42a860d8-2a41-4713-8578-4013b665ed74",
+                    "DisplayName": "名前",
+                    "Name": "Name",
+                    "MetamodelId": "355118a1-c6c1-412c-9758-f158c851afcb",
+                    "ShowIcon": false,
+                    "IsReadOnly": false,
+                    "Path": "Name",
+                    "IsReference": false,
+                    "HasPathMultipleSteps": false,
+                    "ShowTitle": true,
+                    "ShowTitleIcon": false,
+                    "ShowGridLine": false,
+                    "Width": 100,
+                    "MinWidth": 40,
+                    "Order": 0,
+                    "ColumnControlId": "9c52d508-bdcb-4bea-9815-5bc925ee08ea",
+                    "ColumnControlType": "Text"
+                  }
+                ]
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "c3635f23-d86c-4abf-ab09-6cf5b2e88b0e",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "355118a1-c6c1-412c-9758-f158c851afcb",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "6d03fecd-8a17-4d49-b776-e20a51c2e0f2",
+            "Name": "エンティティ_1",
+            "MetamodelId": "355118a1-c6c1-412c-9758-f158c851afcb",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "05bb93ec-03a0-4762-ba1e-a01aa9e7169a",
+                "DisplayName": "登録者",
+                "Name": "登録者",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "登録ユーザー名",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              },
+              {
+                "ControlType": "Text",
+                "Id": "cb3d066b-efef-492c-8048-cd617e488a60",
+                "DisplayName": "登録日",
+                "Name": "登録日",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "登録日",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "5d88940c-c9fb-4efc-b511-cbc6d49335c6",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "42a30710-620c-4870-b9cc-6650737cca89",
+            "Name": "エンティティ_2",
+            "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "a2c74808-6f73-44e7-b392-11765f5fd7b6",
+                "DisplayName": "登録者",
+                "Name": "登録者",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "登録ユーザー名",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": true,
+                "Style": {
+                  "Id": "ee24bbfb-dcc7-4c37-922f-024f0dd4cbbd",
+                  "ForeColor": "Black",
+                  "BackColor": "Blue",
+                  "BorderColor": "Blue",
+                  "BorderThickness": 1,
+                  "BorderStyle": "Solid",
+                  "ShowTitleBorder": true,
+                  "TitleLocation": "Left",
+                  "IndentSize": 0,
+                  "MarginRight": 0,
+                  "MarginTop": 12,
+                  "MarginBottom": 0,
+                  "TitleStyle": {
+                    "Id": "c175544f-575b-47bc-95c9-b509dc0c21dd",
+                    "ForeColor": "Black",
+                    "FontSize": 12,
+                    "FontFamily": "Meiryo",
+                    "IsUnderline": false,
+                    "IsItalic": false,
+                    "IsBold": false,
+                    "DecorateStrikeThrough": false,
+                    "WordWrap": false,
+                    "IsReadOnly": false,
+                    "VerticalTextAlignment": "Middle",
+                    "HorizontalTextAlignment": "Left"
+                  }
+                }
+              },
+              {
+                "ControlType": "Text",
+                "Id": "f3de93c0-0436-4363-ad44-0e6bf00c1036",
+                "DisplayName": "登録日",
+                "Name": "登録日",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "登録日",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": true,
+                "Style": {
+                  "Id": "f8a97999-17fc-46d1-af7a-e42e731793ac",
+                  "ForeColor": "Black",
+                  "BackColor": "Blue",
+                  "BorderColor": "Blue",
+                  "BorderThickness": 1,
+                  "BorderStyle": "Solid",
+                  "ShowTitleBorder": true,
+                  "TitleLocation": "Left",
+                  "IndentSize": 0,
+                  "MarginRight": 0,
+                  "MarginTop": 12,
+                  "MarginBottom": 0,
+                  "TitleStyle": {
+                    "Id": "99ee3f93-8d18-4691-9717-bdaea2656291",
+                    "ForeColor": "Black",
+                    "FontSize": 12,
+                    "FontFamily": "Meiryo",
+                    "IsUnderline": false,
+                    "IsItalic": false,
+                    "IsBold": false,
+                    "DecorateStrikeThrough": false,
+                    "WordWrap": false,
+                    "IsReadOnly": false,
+                    "VerticalTextAlignment": "Middle",
+                    "HorizontalTextAlignment": "Left"
+                  }
+                }
+              },
+              {
+                "ControlType": "ModelReference",
+                "Id": "b9826ec8-c3fc-49f3-9522-d73270c544fe",
+                "DisplayName": "タグ",
+                "Name": "タグ",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "タグ",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": true,
+                "Style": {
+                  "Id": "5a91fe99-175e-4142-9e9f-19c7b28a750a",
+                  "ForeColor": "Black",
+                  "BackColor": "Blue",
+                  "BorderColor": "Blue",
+                  "BorderThickness": 1,
+                  "BorderStyle": "Solid",
+                  "ShowTitleBorder": true,
+                  "TitleLocation": "Left",
+                  "IndentSize": 0,
+                  "MarginRight": 0,
+                  "MarginTop": 12,
+                  "MarginBottom": 0,
+                  "TitleStyle": {
+                    "Id": "0cb7d7f2-ce9f-4830-a15f-bdb9ed43e067",
+                    "ForeColor": "Black",
+                    "FontSize": 12,
+                    "FontFamily": "Meiryo",
+                    "IsUnderline": false,
+                    "IsItalic": false,
+                    "IsBold": false,
+                    "DecorateStrikeThrough": false,
+                    "WordWrap": false,
+                    "IsReadOnly": false,
+                    "VerticalTextAlignment": "Middle",
+                    "HorizontalTextAlignment": "Left"
+                  }
+                }
+              },
+              {
+                "ControlType": "Text",
+                "Id": "9671095f-0a49-4109-b422-d320c614cc00",
+                "DisplayName": "格納先",
+                "Name": "格納先",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "格納先",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": true,
+                "Style": {
+                  "Id": "c971354a-1818-4119-8279-bc950b38b3f5",
+                  "ForeColor": "Black",
+                  "BackColor": "Blue",
+                  "BorderColor": "Blue",
+                  "BorderThickness": 1,
+                  "BorderStyle": "Solid",
+                  "ShowTitleBorder": true,
+                  "TitleLocation": "Left",
+                  "IndentSize": 0,
+                  "MarginRight": 0,
+                  "MarginTop": 12,
+                  "MarginBottom": 0,
+                  "TitleStyle": {
+                    "Id": "70117004-40e8-4647-b0b1-b1ed0f0f100c",
+                    "ForeColor": "Black",
+                    "FontSize": 12,
+                    "FontFamily": "Meiryo",
+                    "IsUnderline": false,
+                    "IsItalic": false,
+                    "IsBold": false,
+                    "DecorateStrikeThrough": false,
+                    "WordWrap": false,
+                    "IsReadOnly": false,
+                    "VerticalTextAlignment": "Middle",
+                    "HorizontalTextAlignment": "Left"
+                  }
+                }
+              },
+              {
+                "ControlType": "Text",
+                "Id": "b5634101-619d-41f8-a1e0-4b32b56ebc77",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": true,
+                "Style": {
+                  "Id": "3dc54725-9d66-4317-9fde-a690d71e3b9e",
+                  "ForeColor": "Black",
+                  "BackColor": "Blue",
+                  "BorderColor": "Blue",
+                  "BorderThickness": 1,
+                  "BorderStyle": "Solid",
+                  "ShowTitleBorder": true,
+                  "TitleLocation": "Left",
+                  "IndentSize": 0,
+                  "MarginRight": 0,
+                  "MarginTop": 12,
+                  "MarginBottom": 0,
+                  "TitleStyle": {
+                    "Id": "c29780d0-6c47-473b-94a3-14d72e630a9e",
+                    "ForeColor": "Black",
+                    "FontSize": 12,
+                    "FontFamily": "Meiryo",
+                    "IsUnderline": false,
+                    "IsItalic": false,
+                    "IsBold": false,
+                    "DecorateStrikeThrough": false,
+                    "WordWrap": false,
+                    "IsReadOnly": false,
+                    "VerticalTextAlignment": "Middle",
+                    "HorizontalTextAlignment": "Left"
+                  }
+                }
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "TreeGrid",
+          "Id": "f391cbcc-ba12-4d3f-8503-b0c01af3faa5",
+          "DisplayName": "一覧",
+          "Name": "一覧",
+          "MetamodelId": "ed704729-4452-493f-8f30-8b2c97e21c1c",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "ColumnDefs": [
+            {
+              "Width": "232",
+              "ShowColumn": "True",
+              "Path": "Name",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "0"
+            },
+            {
+              "Width": "97",
+              "ShowColumn": "True",
+              "Path": "登録ユーザー名",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "1"
+            },
+            {
+              "Width": "101",
+              "ShowColumn": "True",
+              "Path": "登録日",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "2"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "True",
+              "Path": "タグ",
+              "CellType": "ModelReferenceControl",
+              "DataTypeId": "f81dba10-8464-415c-bc79-2294c980c0ca",
+              "Order": "3"
+            },
+            {
+              "Width": "315",
+              "ShowColumn": "True",
+              "Path": "Description",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "4"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "False",
+              "Path": "$ParentName",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "5"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "False",
+              "Path": "格納先",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "6"
+            }
+          ],
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "1526f602-3dba-48ed-b113-b977f6338434",
+            "Name": "非形式情報定義",
+            "MetamodelId": "ed704729-4452-493f-8f30-8b2c97e21c1c",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": true,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "List",
+                "Id": "7f70dd2d-55f9-4b4b-9af2-fec9a1db7a69",
+                "DisplayName": "非形式情報",
+                "Name": "非形式情報",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "非構造化情報",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": false,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false,
+                "BulletType": "Number",
+                "Items": [
+                  {
+                    "ControlType": "EntityControl",
+                    "Id": "04b3c836-4824-4053-b585-92d23eb58bb3",
+                    "Name": "非形式情報",
+                    "MetamodelId": "355118a1-c6c1-412c-9758-f158c851afcb",
+                    "ShowIcon": false,
+                    "IsReadOnly": false,
+                    "IsReference": false,
+                    "HasPathMultipleSteps": false,
+                    "ShowTitle": true,
+                    "ShowTitleIcon": false,
+                    "ShowGridLine": false,
+                    "TitleBindingPath": "Name"
+                  }
+                ]
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "TreeGridLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "TreeGrid",
+          "Id": "9d28edc9-3712-4d80-8c20-f2fa38b88ced",
+          "DisplayName": "一覧",
+          "Name": "一覧",
+          "MetamodelId": "82dde244-eb34-495a-8ab2-3e9f66dab41a",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "ColumnDefs": [
+            {
+              "Width": "340",
+              "ShowColumn": "True",
+              "Path": "Name",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "0"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "True",
+              "Path": "タグ付けされた情報",
+              "CellType": "ModelReferenceControl",
+              "DataTypeId": "355118a1-c6c1-412c-9758-f158c851afcb",
+              "Order": "1"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "True",
+              "Path": "対応する形式情報",
+              "CellType": "ModelReferenceControl",
+              "DataTypeId": "009a2a20-4699-4405-8817-1ab012cba15a",
+              "Order": "2"
+            },
+            {
+              "Width": "315",
+              "ShowColumn": "True",
+              "Path": "Description",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "3"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "False",
+              "Path": "$ParentName",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "4"
+            }
+          ],
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "576a356c-41ab-4f3b-a373-9989741f8d77",
+            "Name": "タグ定義",
+            "MetamodelId": "82dde244-eb34-495a-8ab2-3e9f66dab41a",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": true,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "List",
+                "Id": "64d7a9c2-9c4f-4619-a812-e2199be174ae",
+                "DisplayName": "タグ",
+                "Name": "タグ",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "タグ",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": false,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false,
+                "BulletType": "Number",
+                "Items": [
+                  {
+                    "ControlType": "EntityControl",
+                    "Id": "bcaae385-7e2b-40c1-980a-55b2b2e1cdd3",
+                    "Name": "タグ",
+                    "MetamodelId": "f81dba10-8464-415c-bc79-2294c980c0ca",
+                    "ShowIcon": false,
+                    "IsReadOnly": false,
+                    "IsReference": false,
+                    "HasPathMultipleSteps": false,
+                    "ShowTitle": true,
+                    "ShowTitleIcon": false,
+                    "ShowGridLine": false,
+                    "TitleBindingPath": "Name"
+                  }
+                ]
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "TreeGridLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "CustomEditor",
+          "Id": "2819e623-1c58-49b8-b71e-e5c4b47a3f87",
+          "DisplayName": "非形式情報一覧",
+          "Name": "非形式情報一覧",
+          "MetamodelId": "009a2a20-4699-4405-8817-1ab012cba15a",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "EditorTypeId": "NextDesign.CustomEditor.Markdown",
+          "PropertyValues": {
+            "ScriptRunningMode": "ViewDefinition",
+            "ContentsField": "System.Design.___DesignElement#Name",
+            "DefaultScriptCode": "// Target Model\r\nvar targetModel = (IModel)Params[\"TargetModel\"];\r\n\r\nvar sb = new StringBuilder();\r\n\r\nsb.AppendLine(\"|名前|非形式情報|\");\r\nsb.AppendLine(\"|-|-|\");\r\n\r\nAppendSelfAndChildren(targetModel, sb);\r\n// returns\r\nvar ret = $@\"\r\n{sb}\r\n\";\r\n\r\nreturn ret;\r\n\r\nvoid AppendSelfAndChildren(IModel model, StringBuilder sb, int index = 0)\r\n{\r\n\tif(!model.As(\"形式情報\"))\r\n\t{\r\n\t\treturn;\r\n\t}\r\n\t\r\n\tsb.AppendLine($\"|{GetIndent(index)}{model.Name}|{GetUnFormattedInfoText(model)}|\");\r\n\t\r\n\tvar children = model.GetChildren();\r\n\tforeach(var child in children)\r\n\t{\r\n\t\tAppendSelfAndChildren(child, sb, index+1);\r\n\t}\r\n}\r\n\r\nstring GetUnFormattedInfoText(IModel model)\r\n{\r\n\tvar sb = new StringBuilder();\r\n\t\r\n\tvar tags = model.GetFieldValues(\"_タグ\");\r\n\tvar unFormattedInfos = tags.SelectMany(t => t.GetFieldValues(\"タグ付けされた情報\"))\r\n\t\t\t\t\t\t\t.DistinctBy(m => m.Id).ToList();\r\n\t\t\t\t\t\t\t\r\n\tif(!unFormattedInfos.Any())\r\n\t{\r\n\t\treturn \"ー\";\r\n\t}\r\n\t\r\n\tfor(var i = 0; i < unFormattedInfos.Count ; i++)\r\n\t{\r\n\t\tif(i >0)\r\n\t\t{\r\n\t\t\tsb.Append(\"<br>\");\r\n\t\t}\r\n\t\t\r\n\t\tvar info = unFormattedInfos[i];\r\n\t\tsb.Append($\"▸ [{info.Name}](modelId://{info.Id})\");\r\n\t}\r\n\t\r\n\treturn sb.ToString();\r\n}\r\n\r\nstring GetIndent(int index)\r\n{\r\n\tvar sb = new StringBuilder();\r\n\tfor(var i = 0 ; i < index ; i++)\r\n\t{\r\n\t\tsb.Append(\"- \");\r\n\t}\r\n\t\r\n\treturn sb.ToString();\r\n}"
+          }
+        },
+        {
+          "ViewType": "CustomEditor",
+          "Id": "ae68c5a4-2df6-47ff-9401-990061433c95",
+          "DisplayName": "非形式情報一覧",
+          "Name": "非形式情報一覧",
+          "MetamodelId": "a740f76d-ccb4-4843-9411-4a550068cfe1",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "EditorTypeId": "NextDesign.CustomEditor.Markdown",
+          "PropertyValues": {
+            "ScriptRunningMode": "ViewDefinition",
+            "DefaultScriptCode": "// Target Model\r\nvar targetModel = (IModel)Params[\"TargetModel\"];\r\n\r\nvar sb = new StringBuilder();\r\n\r\nsb.AppendLine(\"|名前|非形式情報|\");\r\nsb.AppendLine(\"|-|-|\");\r\n\r\nvar children = targetModel.GetChildren();\r\nforeach(var child in children)\r\n{\r\n\tAppendSelfAndChildren(child, sb);\r\n}\r\n\r\n// returns\r\nvar ret = $@\"\r\n{sb}\r\n\";\r\n\r\nreturn ret;\r\n\r\nvoid AppendSelfAndChildren(IModel model, StringBuilder sb, int index = 0)\r\n{\r\n\tif(!model.As(\"形式情報\"))\r\n\t{\r\n\t\treturn;\r\n\t}\r\n\t\r\n\tsb.AppendLine($\"|{GetIndent(index)}{model.Name}|{GetUnFormattedInfoText(model)}|\");\r\n\t\r\n\tvar children = model.GetChildren();\r\n\tforeach(var child in children)\r\n\t{\r\n\t\tAppendSelfAndChildren(child, sb, index+1);\r\n\t}\r\n}\r\n\r\nstring GetUnFormattedInfoText(IModel model)\r\n{\r\n\tvar sb = new StringBuilder();\r\n\t\r\n\tvar tags = model.GetFieldValues(\"_タグ\");\r\n\tvar unFormattedInfos = tags.SelectMany(t => t.GetFieldValues(\"タグ付けされた情報\"))\r\n\t\t\t\t\t\t\t.DistinctBy(m => m.Id).ToList();\r\n\t\t\t\t\t\t\t\r\n\tif(!unFormattedInfos.Any())\r\n\t{\r\n\t\treturn \"ー\";\r\n\t}\r\n\t\r\n\tfor(var i = 0; i < unFormattedInfos.Count ; i++)\r\n\t{\r\n\t\tif(i >0)\r\n\t\t{\r\n\t\t\tsb.Append(\"<br>\");\r\n\t\t}\r\n\t\t\r\n\t\tvar info = unFormattedInfos[i];\r\n\t\tsb.Append($\"▸ [{info.Name}](modelId://{info.Id})\");\r\n\t}\r\n\t\r\n\treturn sb.ToString();\r\n}\r\n\r\nstring GetIndent(int index)\r\n{\r\n\tvar sb = new StringBuilder();\r\n\tfor(var i = 0 ; i < index ; i++)\r\n\t{\r\n\t\tsb.Append(\"- \");\r\n\t}\r\n\t\r\n\treturn sb.ToString();\r\n}"
+          }
+        },
+        {
+          "ViewType": "CustomEditor",
+          "Id": "41e55c44-a34e-4c54-9273-9a8648527e5e",
+          "DisplayName": "レポート",
+          "Name": "レポート",
+          "MetamodelId": "487b4bb8-2349-4dfd-9526-e3ba94748a04",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "EditorTypeId": "NextDesign.CustomEditor.Markdown",
+          "PropertyValues": {
+            "DefaultScriptCode": "var targetModel = (IModel)Params[\"TargetModel\"];\r\n\r\nvar sb = new StringBuilder();\r\n\r\n// Child models\r\n\r\n\r\n// returns\r\nvar ret = $@\"\r\n\r\n## {targetModel.Name}\r\n\r\n{CreateUnFormattedInfoReport()}\r\n---\r\n{CreateFormattedInfoReport()}\r\n\r\n\";\r\n\r\nreturn ret;\r\n\r\nstring CreateUnFormattedInfoReport()\r\n{\r\n    var sb = new StringBuilder();\r\n    sb.AppendLine($\"## 1. 非形式情報のタグ付け\");\r\n    \r\n    var unFormattedInfoDef = CurrentProject.DesignModel.GetChildren().First(m => m.As(\"非形式情報定義\"));\r\n    var unformattedInfos = unFormattedInfoDef.GetAllChildren().Where(m => m.As(\"非形式情報\"));\r\n    \r\n    var total = unformattedInfos.Count(); \r\n    \r\n    var tagged = unformattedInfos.Where(m => m.GetFieldValues(\"タグ\").Any()).Count(); \r\n    var tagRelations = unformattedInfos.SelectMany(m => m.GetRelations(\"タグ\")).Count();\r\n    sb.AppendLine($\"### ▸ 非形式情報とタグの関連総数 … {tagRelations} [relation]\");\r\n    \r\n    sb.AppendLine($\"### ▸ 非形式情報のタグ付け率 … {tagged*100 / total} % （{tagged} [info] / {total} [info]）\");\r\n    sb.AppendLine($@\"```chart\r\n    {{\r\n      type: 'bar',\r\n      data: {{\r\n        labels: ['非形式情報'],\r\n        datasets: [\r\n          {{\r\n            label: 'タグ設定済',\r\n            data: [{tagged}],\r\n            backgroundColor: 'rgba(88, 170, 255, 0.3)',\r\n            borderColor: 'rgba(88, 170, 255, 1)',\r\n            borderWidth: 2,\r\n            stack: 'stack-1',\r\n          }},\r\n          {{\r\n            label: 'タグ未設定',\r\n            data: [{total - tagged}],\r\n            backgroundColor: 'rgba(222, 222, 222, 0.3)',\r\n            borderColor: 'rgba(88, 170, 255, 1)',\r\n            borderWidth: 1,\r\n            stack: 'stack-1',\r\n          }}]\r\n      }},\r\n      options: {{\r\n        indexAxis: 'y', // 横向きバー\r\n        plugins: {{\r\n          legend: {{\r\n            display: true,\r\n            labels: {{ color: '#555' }}\r\n          }}\r\n        }},\r\n        scales: {{\r\n          x: {{\r\n            beginAtZero: true,\r\n            grid: {{ color: 'rgba(200,200,200,0.1)' }},\r\n            ticks: {{\r\n            stepSize: 1, // 1ずつ増える\r\n            callback: function(value) {{\r\n                // 整数のみ表示（小数点の値には空文字を返して非表示）\r\n                if (Number.isInteger(value)) \r\n                {{\r\n                    return value;\r\n                }}\r\n                    return '';\r\n                }}\r\n            }}\r\n          }},\r\n          y: {{\r\n            grid: {{ color: 'rgba(200,200,200,0.1)' }}\r\n          }}\r\n        }}\r\n      }}\r\n    }}```\");\r\n    \r\n    return sb.ToString();\r\n}\r\n\r\nstring CreateFormattedInfoReport()\r\n{\r\n    var sb = new StringBuilder();\r\n    sb.AppendLine($\"## 2. 形式情報とタグの関連付け\");\r\n    \r\n    var formattedInfoDef = CurrentProject.DesignModel.GetChildren().First(m => m.As(\"形式情報定義\"));\r\n    var formattedInfos = formattedInfoDef.GetAllChildren().Where(m => m.As(\"形式情報\"));\r\n    var total = formattedInfos.Count();\r\n    \r\n    var tagRelations = formattedInfos.SelectMany(m => m.GetRelations(\"_タグ\")).Count();\r\n    sb.AppendLine($\"### ▸ 形式情報とタグの関連総数 … {tagRelations} [relation]  \");\r\n    \r\n    var tagRelated = formattedInfos.Where(m => m.GetFieldValues(\"_タグ\").Any()).Count();\r\n    sb.AppendLine($\"### ▸ 形式情報のタグ関連付け率 … {tagRelated*100 / total} %（{tagRelated} [info] / {total} [info]）\");\r\n    \r\n    sb.AppendLine($@\"```chart\r\n    {{\r\n      type: 'bar',\r\n      data: {{\r\n        labels: ['形式情報'],\r\n        datasets: [\r\n          {{\r\n            label: 'タグ関連付け済',\r\n            data: [{tagRelated}],\r\n            backgroundColor: 'rgba(238, 77, 90, 0.3)',\r\n            borderColor: 'rgba(238, 77, 90, 1)',\r\n            borderWidth: 2,\r\n            stack: 'stack-1',\r\n          }},\r\n          {{\r\n            label: 'タグ関連無し',\r\n            data: [{total - tagRelated}],\r\n            backgroundColor: 'rgba(222, 222, 222, 0.3)',\r\n            borderColor: 'rgba(238, 77, 90, 1)',\r\n            borderWidth: 1,\r\n            stack: 'stack-1',\r\n          }}]\r\n      }},\r\n      options: {{\r\n        indexAxis: 'y', // 横向きバー\r\n        plugins: {{\r\n          legend: {{\r\n            display: true,\r\n            labels: {{ color: '#555' }}\r\n          }}\r\n        }},\r\n        scales: {{\r\n          x: {{\r\n            beginAtZero: true,\r\n            grid: {{ color: 'rgba(200,200,200,0.1)' }},\r\n            ticks: {{\r\n            stepSize: 1, // 1ずつ増える\r\n            callback: function(value) {{\r\n                // 整数のみ表示（小数点の値には空文字を返して非表示）\r\n                if (Number.isInteger(value)) \r\n                {{\r\n                    return value;\r\n                }}\r\n                    return '';\r\n                }}\r\n            }}\r\n          }},\r\n          y: {{\r\n            grid: {{ color: 'rgba(200,200,200,0.1)' }}\r\n          }}\r\n        }}\r\n      }}\r\n    }}```\");\r\n    \r\n    return sb.ToString();\r\n}\r\n",
+            "ScriptRunningMode": "ViewDefinition"
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "9564f307-815d-4fb6-a60b-e685c07e6f3d",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "3224ade4-04a1-43c2-8720-e554784bc23d",
+            "Name": "エンティティ_1",
+            "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "fd8af037-cf92-4697-8a0f-5835241520b8",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "4a6f36e4-5fcd-4ead-86e8-0f25da60d64e",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "a1b1bc31-9469-49d2-a99e-2a93449b17b2",
+            "Name": "エンティティ_1",
+            "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "4f36f840-3557-4856-adfb-207440923be3",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "f50ef0a1-cea7-43cf-a442-8f9d9cc4c389",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "71c2e1a3-da2e-4c20-a703-7aa83b46ebbe",
+            "Name": "エンティティ_1",
+            "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "4b2ef4a6-3a36-462b-af4a-9722eff73400",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "59d03842-5cba-419d-90d1-5f7524acd947",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "09d89d15-c57f-4101-af34-bc1bbc3bf4f7",
+            "Name": "エンティティ_1",
+            "MetamodelId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "15e3c742-606d-4bad-9490-d4b87ccdff09",
+                "DisplayName": "PCユーザー名",
+                "Name": "PCユーザー名",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "PCユーザー名",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "TreeGrid",
+          "Id": "503a207e-3792-443f-911f-f56d1d5dbd45",
+          "DisplayName": "一覧",
+          "Name": "一覧",
+          "MetamodelId": "3eb17df6-40e2-4e0d-adf7-160c22fc05ae",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "ColumnDefs": [
+            {
+              "Width": "340",
+              "ShowColumn": "True",
+              "Path": "Name",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "0"
+            },
+            {
+              "Width": "315",
+              "ShowColumn": "False",
+              "Path": "Description",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "1"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "True",
+              "Path": "PCユーザー名",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "2"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "False",
+              "Path": "非構造化情報",
+              "CellType": "ModelReferenceControl",
+              "DataTypeId": "355118a1-c6c1-412c-9758-f158c851afcb",
+              "Order": "3"
+            },
+            {
+              "Width": "200",
+              "ShowColumn": "False",
+              "Path": "$ParentName",
+              "CellType": "TextBox",
+              "DataTypeId": null,
+              "Order": "4"
+            }
+          ],
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "edfe6fd3-1dbd-4296-912f-5a871bfd3b84",
+            "Name": "メンバ定義",
+            "MetamodelId": "3eb17df6-40e2-4e0d-adf7-160c22fc05ae",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": true,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "List",
+                "Id": "1c53e5d8-7a43-4ec5-a7df-7a9272ab0275",
+                "DisplayName": "メンバ",
+                "Name": "メンバ",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "メンバ",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": false,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false,
+                "BulletType": "Number",
+                "Items": [
+                  {
+                    "ControlType": "EntityControl",
+                    "Id": "32ec5073-8c61-42ac-a701-599a74d68e36",
+                    "Name": "メンバ",
+                    "MetamodelId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+                    "ShowIcon": false,
+                    "IsReadOnly": false,
+                    "IsReference": false,
+                    "HasPathMultipleSteps": false,
+                    "ShowTitle": true,
+                    "ShowTitleIcon": false,
+                    "ShowGridLine": false,
+                    "TitleBindingPath": "Name"
+                  }
+                ]
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "TreeGridLayout",
+            "TitleWidth": 250
+          }
+        }
+      ]
+    }
+  ],
+  "ProfileEditors": [
+    {
+      "Id": "47bb2afa-b8d1-4a5b-a512-9b83799d04dd",
+      "Name": "新しいクラス図",
+      "DisplayName": "【軽量デジタル化の構造】",
+      "OwnerPackageId": "b0b0bee4-cb12-479d-b60b-28c3d98887dd",
+      "Order": 0,
+      "Nodes": [
+        {
+          "Id": "0b4c53b1-af1b-418a-948b-3f5180bdd945",
+          "LocationX": 439.3375,
+          "LocationY": 221.5,
+          "ZOrder": 0,
+          "Width": 126.25,
+          "Height": 106.625,
+          "NodeType": "Entity",
+          "MetamodelId": "f81dba10-8464-415c-bc79-2294c980c0ca",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "#FFBFBFBF",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "6e041cf0-5509-481f-a97b-683b82e545c4",
+          "LocationX": 125.03750000000002,
+          "LocationY": 229.8125,
+          "ZOrder": 1,
+          "Width": 158,
+          "Height": 119,
+          "NodeType": "Entity",
+          "MetamodelId": "355118a1-c6c1-412c-9758-f158c851afcb",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "#FFBFBFBF",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "baaff80c-3ada-4aab-8bd7-eead2cd05aad",
+          "LocationX": 64.65000000000003,
+          "LocationY": 438.4375,
+          "ZOrder": 2,
+          "Width": 126.25,
+          "Height": 94.5,
+          "NodeType": "Entity",
+          "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "781dd1fe-8927-4073-a290-e5e7c71c0793",
+          "LocationX": 743.1999999999998,
+          "LocationY": 229.8125,
+          "ZOrder": 3,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "009a2a20-4699-4405-8817-1ab012cba15a",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "#FFBFBFBF",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "69d2538c-be44-4f4e-9773-03696b850d0d",
+          "LocationX": -117.20000000000005,
+          "LocationY": 125.6875,
+          "ZOrder": 4,
+          "Width": 292.75,
+          "Height": 65,
+          "Tag": "ファイルなどの非構造化情報を表す。\r\n現状ではファイルのみだが、ND上でテキストや図でメモを残しておくことなども想定して、抽象クラスとしている。",
+          "NodeType": "Comment",
+          "ForeColor": "Red1",
+          "BackColor": "Red1",
+          "BorderColor": "Red1"
+        },
+        {
+          "Id": "841fef8f-27ff-4d44-9dba-b56038f5d8b2",
+          "LocationX": 827.65,
+          "LocationY": 334.05000000000007,
+          "ZOrder": 5,
+          "Width": 251.25,
+          "Height": 54.25,
+          "Tag": "ドメイン固有の設計情報は、このクラスを継承しておくことで、タグと対応付けられるようにする。",
+          "NodeType": "Comment",
+          "ForeColor": "Red1",
+          "BackColor": "Red1",
+          "BorderColor": "Red1"
+        },
+        {
+          "Id": "2e988f86-cd20-4b9b-986f-cbc1f78f279a",
+          "LocationX": 437.775,
+          "LocationY": 6,
+          "ZOrder": 6,
+          "Width": 123.125,
+          "Height": 90,
+          "NodeType": "Entity",
+          "MetamodelId": "82dde244-eb34-495a-8ab2-3e9f66dab41a",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "19d3898a-e31b-4609-af39-06229b0965de",
+          "LocationX": 140.60000000000002,
+          "LocationY": 6,
+          "ZOrder": 7,
+          "Width": 132,
+          "Height": 90,
+          "NodeType": "Entity",
+          "MetamodelId": "ed704729-4452-493f-8f30-8b2c97e21c1c",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "caf6bcc5-5483-45ce-8699-c4c15a54df43",
+          "LocationX": 743.1999999999998,
+          "LocationY": 6,
+          "ZOrder": 8,
+          "Width": 120,
+          "Height": 90,
+          "NodeType": "Entity",
+          "MetamodelId": "a740f76d-ccb4-4843-9411-4a550068cfe1",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "1013a06d-078b-48ba-b5be-30ef4f2e2a87",
+          "LocationX": 998,
+          "LocationY": 11,
+          "ZOrder": 9,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "487b4bb8-2349-4dfd-9526-e3ba94748a04",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "4baef623-4f01-488a-a08c-21f79b0aa305",
+          "LocationX": 294,
+          "LocationY": 407,
+          "ZOrder": 10,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "b3909edb-8c54-4efa-9d55-1f4cd110981e",
+          "LocationX": 442.4625,
+          "LocationY": 407,
+          "ZOrder": 11,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "cffbd1b4-8716-46d5-bc35-b8190a918ab5",
+          "LocationX": 603,
+          "LocationY": 407,
+          "ZOrder": 12,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "f3934c3b-1ae3-47b1-b663-1ac687749420",
+          "LocationX": -212.75,
+          "LocationY": 7.25,
+          "ZOrder": 13,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "3eb17df6-40e2-4e0d-adf7-160c22fc05ae",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "be79a8c3-2922-47ac-8221-30282acdaad6",
+          "LocationX": -213.75,
+          "LocationY": 249.25,
+          "ZOrder": 15,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        }
+      ],
+      "Connectors": [
+        {
+          "Id": "e2b934ed-d9b6-4108-87c4-22813a0cd59b",
+          "SourceId": "6e041cf0-5509-481f-a97b-683b82e545c4",
+          "TargetId": "0b4c53b1-af1b-418a-948b-3f5180bdd945",
+          "LineType": "Straight",
+          "ConnectorType": "Reference",
+          "MetamodelId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "015b11f6-148f-415b-b58a-1dc34c36dcac",
+          "SourceId": "baaff80c-3ada-4aab-8bd7-eead2cd05aad",
+          "TargetId": "6e041cf0-5509-481f-a97b-683b82e545c4",
+          "LineType": "Straight",
+          "ConnectorType": "Generalization",
+          "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "1d7ee1be-eff6-436a-ae64-97f97c53900b",
+          "SourceId": "69d2538c-be44-4f4e-9773-03696b850d0d",
+          "TargetId": "6e041cf0-5509-481f-a97b-683b82e545c4",
+          "LineType": "Straight",
+          "ConnectorType": "Anchor",
+          "ForeColor": "Red1",
+          "BackColor": "Red1",
+          "BorderColor": "Red1"
+        },
+        {
+          "Id": "6ad797bd-f204-4b3e-a258-af4b09aef543",
+          "SourceId": "841fef8f-27ff-4d44-9dba-b56038f5d8b2",
+          "TargetId": "781dd1fe-8927-4073-a290-e5e7c71c0793",
+          "LineType": "Straight",
+          "ConnectorType": "Anchor",
+          "ForeColor": "Red1",
+          "BackColor": "Red1",
+          "BorderColor": "Red1"
+        },
+        {
+          "Id": "79aff7f0-b6f4-4160-ac4b-e32bce915205",
+          "SourceId": "2e988f86-cd20-4b9b-986f-cbc1f78f279a",
+          "TargetId": "0b4c53b1-af1b-418a-948b-3f5180bdd945",
+          "LineType": "Straight",
+          "ConnectorType": "Embed",
+          "MetamodelId": "5f659b70-7565-4207-b66b-e1ece945b5f1",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "daba7c6a-b9b4-4d00-8295-c95c55891d96",
+          "SourceId": "19d3898a-e31b-4609-af39-06229b0965de",
+          "TargetId": "6e041cf0-5509-481f-a97b-683b82e545c4",
+          "LineType": "Straight",
+          "ConnectorType": "Embed",
+          "MetamodelId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "a0bdda9a-7003-4aba-b563-34341012461f",
+          "SourceId": "caf6bcc5-5483-45ce-8699-c4c15a54df43",
+          "TargetId": "781dd1fe-8927-4073-a290-e5e7c71c0793",
+          "LineType": "Straight",
+          "ConnectorType": "Embed",
+          "MetamodelId": "6209cc7d-21f3-4a15-80d6-aba8fc275283",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "616e2469-2851-4f09-ae19-7b775a163297",
+          "SourceId": "4baef623-4f01-488a-a08c-21f79b0aa305",
+          "TargetId": "0b4c53b1-af1b-418a-948b-3f5180bdd945",
+          "LineType": "Straight",
+          "ConnectorType": "Generalization",
+          "MetamodelId": "7a15972a-355e-4d55-93db-8289c96e0f64",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "085cedcc-ac1f-4288-9411-c45524f0d21a",
+          "SourceId": "b3909edb-8c54-4efa-9d55-1f4cd110981e",
+          "TargetId": "0b4c53b1-af1b-418a-948b-3f5180bdd945",
+          "LineType": "Straight",
+          "ConnectorType": "Generalization",
+          "MetamodelId": "fbd7e06f-4237-4a65-9043-8261822a4316",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "7e542a42-1684-4cd1-8da7-3b01fa0244a2",
+          "SourceId": "cffbd1b4-8716-46d5-bc35-b8190a918ab5",
+          "TargetId": "0b4c53b1-af1b-418a-948b-3f5180bdd945",
+          "LineType": "Straight",
+          "ConnectorType": "Generalization",
+          "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "48ff7284-2b4f-4657-82c3-2e5d21ec1a64",
+          "SourceId": "6e041cf0-5509-481f-a97b-683b82e545c4",
+          "TargetId": "6e041cf0-5509-481f-a97b-683b82e545c4",
+          "Bends": [
+            {
+              "LocationX": 162,
+              "LocationY": 289.3125
+            },
+            {
+              "LocationX": 162,
+              "LocationY": 377
+            },
+            {
+              "LocationX": 57,
+              "LocationY": 377
+            },
+            {
+              "LocationX": 57,
+              "LocationY": 289.3125
+            }
+          ],
+          "LineType": "Orthogonal",
+          "ConnectorType": "Reference",
+          "MetamodelId": "6a6360db-16a3-40b8-ba16-337c5642431f",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "8b04fa42-c1a7-4f46-a3d4-86e48cbcfcdb",
+          "SourceId": "f3934c3b-1ae3-47b1-b663-1ac687749420",
+          "TargetId": "be79a8c3-2922-47ac-8221-30282acdaad6",
+          "LineType": "Straight",
+          "ConnectorType": "Embed",
+          "MetamodelId": "e2d7394c-a67e-4171-bb1e-7401fc708e6b",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        },
+        {
+          "Id": "86033968-77dc-4e59-8deb-3a00cbfa0ac1",
+          "SourceId": "6e041cf0-5509-481f-a97b-683b82e545c4",
+          "TargetId": "be79a8c3-2922-47ac-8221-30282acdaad6",
+          "Bends": [
+            {
+              "LocationX": 31.25,
+              "LocationY": 235.25
+            }
+          ],
+          "LineType": "Straight",
+          "ConnectorType": "Reference",
+          "MetamodelId": "b3f51f33-9ecb-4e2f-926d-35a956611992",
+          "ForeColor": "DeepBlue2",
+          "BackColor": "DeepBlue2",
+          "BorderColor": "DeepBlue2"
+        }
+      ]
+    }
+  ],
+  "ProfileResources": [
+    {
+      "Id": "3e4cfdc8-dad1-4d21-8143-acb0de068bc6",
+      "Name": "Report_16x.png",
+      "MimeType": "image/png",
+      "Key": "icon",
+      "Table": "Profile",
+      "TargetId": "e47866ca-679d-459d-b6a7-dd6525bd010a",
+      "Data": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAB2HAAAdhwGP5fFlAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAJlJREFUWIXtlzEOgCAMRT/GhbuxqOdUF+7GiINhkNBgEaWJvEkakzbPn0aU9x4A4Jw7Hz5Ca60AYPiyaYoxLhhjXm1orb2c5RkIbOtetdG8TMm6XAMBavIcdw3KN1A7CzHyDeQy8NSQfAM9A3EGcka478s30DNAwf3WFM0N9AGq7wEuzQ30AYo3IbdOIddA6d8wl+YG1O9vxwf45TODNxxTfgAAAABJRU5ErkJggg=="
+    },
+    {
+      "Id": "a3b40ffb-441d-4235-b912-3de55f512d12",
+      "Name": "Report.png",
+      "MimeType": "image/png",
+      "Key": "icon",
+      "Table": "Profile",
+      "TargetId": "e47866ca-679d-459d-b6a7-dd6525bd010a",
+      "Data": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAB2HAAAdhwGP5fFlAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAeJJREFUWIXFl7FOAzEMQF2LocofcFPVLvwDTHwCv8HYBYmBLox8Cf/Axj8wVFWnQ+IDokwJS1O5PtvxXRH1kovPF7+zY+duVkqBSwpe1DsAXHHFarXalFJezlz3ExEfttvtT8twxlOwXC7/KidfOef7/X7/PQkg59yFECDGCAAA9NqaI2I/BsLcAzFGCCEcr6sja87kBhE/FovF9SQAaWHF0RFkLIQJUBfVRgqkgbUgBlVAndecppQAEYGPVHLOnUVwgHgHgDuqVCPQeKOpcssVzQjwapBs2FysHlYdRzEjQHc432TcSbWjI7+WRI1AfbiS87zHGDtqR8EodAvAVQUeG+rYWRkA4IgAAAx2d30z+obejsml2YhoFKxcj+yQPoAQAqSUekTsD/2gl4CoI0RcV1tEfG6lsXkWaDqpCg7jmpg/nlUFAKenopZPmhLeIVuiWocQBlUg1beWEr7WaACpnCiUlGtPt3QDSOQUCpy5lrqoG0BrwV5gus4kAA5hhdNKgSXmJqQQdJQWtVIwCUCpcXrvlZi/EZsTvVRNVNSv4vl83lm72nPSUamn6m63m53otQe0cHOnUoTq3HOaqp1Q+w6o0vpOTCnVdUyAwd1SylMTe6KUUjZcN9gD/y0X/zv+BaHmb9k0AzjAAAAAAElFTkSuQmCC"
+    }
+  ]
+}

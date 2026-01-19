@@ -1,0 +1,129 @@
+{
+  "Type": "Project",
+  "TopElementId": "a428a186-5ceb-4edc-9d89-d670bab38a62",
+  "SchemaVersion": "13.0",
+  "Project": {
+    "Id": "a428a186-5ceb-4edc-9d89-d670bab38a62",
+    "Name": "MRN向け軽量デジタル化システム試行",
+    "Summary": "",
+    "Group": null,
+    "Icon": "",
+    "OutputModelPath": false,
+    "UnitFiles": [
+      {
+        "Name": "システム設計軽量デジタル化プロファイル",
+        "Type": "Profile",
+        "TopElementId": "dab7ccfa-6a8c-442b-b8d8-279853efbd65",
+        "IsSharedUnit": false,
+        "UnitPath": "Profile\\システム設計軽量デジタル化プロファイル.nprof"
+      },
+      {
+        "Name": "非構造化情報",
+        "Type": "Model",
+        "TopElementId": "9cb870be-668a-4f6e-902f-28e378668aee",
+        "IsSharedUnit": false,
+        "UnitPath": "Models\\非構造化情報.nmdl"
+      },
+      {
+        "Name": "タグ定義",
+        "Type": "Model",
+        "TopElementId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+        "IsSharedUnit": false,
+        "UnitPath": "Models\\タグ定義.nmdl"
+      }
+    ]
+  },
+  "Entities": [
+    {
+      "Id": "14e65a7d-1834-4a43-aad8-770d2d8e8c4f",
+      "EntityType": "Entity",
+      "Name": "メンバ定義",
+      "MetamodelId": "3eb17df6-40e2-4e0d-adf7-160c22fc05ae",
+      "Metamodel": "メンバ定義",
+      "Fields": {
+        "Name": "メンバ定義"
+      }
+    },
+    {
+      "Id": "337ac913-23e7-4202-b122-621126128995",
+      "EntityType": "Entity",
+      "Name": "若松",
+      "MetamodelId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
+      "Metamodel": "メンバ",
+      "Fields": {
+        "Name": "若松",
+        "PCユーザー名": "10042000591"
+      }
+    },
+    {
+      "Id": "a428a186-5ceb-4edc-9d89-d670bab38a62",
+      "EntityType": null,
+      "Name": "MRN向け軽量デジタル化システム試行",
+      "MetamodelId": "System.Project.ProjectClass",
+      "Metamodel": "ProjectClass",
+      "Fields": {
+        "Name": "MRN向け軽量デジタル化システム試行",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "EntityType": null,
+      "Name": "MRN向け軽量デジタル化システム試行",
+      "MetamodelId": "System.Design.___DesignModel",
+      "Metamodel": "DesignModel",
+      "Fields": {
+        "Name": "MRN向け軽量デジタル化システム試行"
+      }
+    }
+  ],
+  "Relations": [
+    {
+      "Id": "35f373e5-9e41-4e00-9e3d-ecaa66b139cd",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Design.___RootToEntities",
+      "Metamodel": "___RootToEntities",
+      "SourceId": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "TargetId": "42cb2bd3-8cc3-4788-8957-6d92f0a59739",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "946e7a6d-71dc-4158-ab00-7de02843313a",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Design.___RootToEntities",
+      "Metamodel": "___RootToEntities",
+      "SourceId": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "TargetId": "9cb870be-668a-4f6e-902f-28e378668aee",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "a13382b9-2f80-460d-84a0-acfee02d9ef5",
+      "RelationType": "Embed",
+      "MetamodelId": "e2d7394c-a67e-4171-bb1e-7401fc708e6b",
+      "Metamodel": "メンバの所有",
+      "SourceId": "14e65a7d-1834-4a43-aad8-770d2d8e8c4f",
+      "TargetId": "337ac913-23e7-4202-b122-621126128995",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "d70ac627-49f5-484d-ace8-cbd732ec292a",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Core.___ModelRoot_RootModels",
+      "Metamodel": "___ModelRoot_RootModels",
+      "SourceId": "a428a186-5ceb-4edc-9d89-d670bab38a62",
+      "TargetId": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "ed316429-0ca2-454b-8f50-6d899fa60f97",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Design.___RootToEntities",
+      "Metamodel": "___RootToEntities",
+      "SourceId": "dfe8647d-7f2c-4b7b-8447-dd33ea6bce98",
+      "TargetId": "14e65a7d-1834-4a43-aad8-770d2d8e8c4f",
+      "SourceIndex": 2,
+      "TargetIndex": -1
+    }
+  ]
+}

@@ -21,7 +21,8 @@
       "MetamodelId": "3af7e0b8-dab2-435f-93ff-1210f63dac32",
       "Metamodel": "自由タグ",
       "Fields": {
-        "Name": "システム"
+        "Name": "システム",
+        "Description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
       }
     },
     {
