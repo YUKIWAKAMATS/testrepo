@@ -82,15 +82,6 @@
   ],
   "Relations": [
     {
-      "Id": "02c2112d-f3da-4187-80e4-7cedba35699e",
-      "RelationType": "Ref",
-      "MetamodelId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
-      "Metamodel": "非構造化情報からタグへの参照",
-      "SourceId": "294aff75-896c-4f83-a341-18aa262eda41",
-      "TargetId": "7b932953-6c64-4c9f-b59b-93396bbbc043",
-      "TargetIndex": -1
-    },
-    {
       "Id": "087d5a16-f4df-4d51-84d4-164ad4bf00af",
       "RelationType": "Embed",
       "MetamodelId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
