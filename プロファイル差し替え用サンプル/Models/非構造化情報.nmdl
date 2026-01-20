@@ -186,6 +186,15 @@
       "TargetIndex": -1
     },
     {
+      "Id": "ef21aaa8-befc-4cfd-9d3b-d6d7a0999ad4",
+      "RelationType": "Ref",
+      "MetamodelId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
+      "Metamodel": "非構造化情報からタグへの参照",
+      "SourceId": "294aff75-896c-4f83-a341-18aa262eda41",
+      "TargetId": "7b932953-6c64-4c9f-b59b-93396bbbc043",
+      "TargetIndex": -1
+    },
+    {
       "Id": "f037e6f3-686e-4a4d-83fd-c3fc8d599c56",
       "RelationType": "Ref",
       "MetamodelId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
