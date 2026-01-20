@@ -17,6 +17,19 @@
       }
     },
     {
+      "Id": "294aff75-896c-4f83-a341-18aa262eda41",
+      "EntityType": "Entity",
+      "Name": "新規テキストドキュメント2.txt",
+      "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+      "Metamodel": "ファイル",
+      "Fields": {
+        "Name": "新規テキストドキュメント2.txt",
+        "登録ユーザー名": "10042000591",
+        "登録日": "2026/01/20",
+        "格納先": ".\\Files\\10042000591\\2026-01-20\\新規テキストドキュメント2.txt"
+      }
+    },
+    {
       "Id": "616c742b-d6c3-4b03-99ef-abf01c5321f8",
       "EntityType": "Entity",
       "Name": "3-2-1. 業務・システム分析.pptx",
@@ -68,6 +81,16 @@
     }
   ],
   "Relations": [
+    {
+      "Id": "087d5a16-f4df-4d51-84d4-164ad4bf00af",
+      "RelationType": "Embed",
+      "MetamodelId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+      "Metamodel": "非形式情報の所有",
+      "SourceId": "9cb870be-668a-4f6e-902f-28e378668aee",
+      "TargetId": "294aff75-896c-4f83-a341-18aa262eda41",
+      "SourceIndex": 4,
+      "TargetIndex": -1
+    },
     {
       "Id": "0bf0dca0-eb9b-4501-a312-a2ef2a534524",
       "RelationType": "Embed",
