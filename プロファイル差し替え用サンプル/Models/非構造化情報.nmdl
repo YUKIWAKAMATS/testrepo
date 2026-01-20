@@ -54,6 +54,20 @@
       }
     },
     {
+      "Id": "cfa9e01a-3ad5-4547-9370-cc0ebf8f4d68",
+      "EntityType": "Entity",
+      "Name": "○○要求分析.txt",
+      "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+      "Metamodel": "ファイル",
+      "Fields": {
+        "Name": "○○要求分析.txt",
+        "登録ユーザー名": "10042000591",
+        "登録日": "2026/01/20",
+        "メモ": "zz",
+        "格納先": ".\\Files\\10042000591\\2026-01-20\\○○要求分析.txt"
+      }
+    },
+    {
       "Id": "e4a20579-3f72-428d-b64c-d3e206e2283b",
       "EntityType": "Entity",
       "Name": "3-1. 要望・要求の管理.pptx",
@@ -112,6 +126,16 @@
       "TargetIndex": -1
     },
     {
+      "Id": "2b12c8a2-5fd3-40eb-a03e-3843803fb11b",
+      "RelationType": "Ref",
+      "MetamodelId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
+      "Metamodel": "非構造化情報からタグへの参照",
+      "SourceId": "cfa9e01a-3ad5-4547-9370-cc0ebf8f4d68",
+      "TargetId": "b4e6fc59-8782-48d3-9025-096a08db4f17",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
       "Id": "2b7a4591-5427-4c5d-b499-d03c19ea4f7f",
       "RelationType": "Embed",
       "MetamodelId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
@@ -119,6 +143,16 @@
       "SourceId": "9cb870be-668a-4f6e-902f-28e378668aee",
       "TargetId": "22bfc57f-94ed-4515-8e3c-dc55430eef4b",
       "SourceIndex": 3,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "383b1ed5-191e-4e44-9d06-c71541a8c6c5",
+      "RelationType": "Embed",
+      "MetamodelId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+      "Metamodel": "非形式情報の所有",
+      "SourceId": "9cb870be-668a-4f6e-902f-28e378668aee",
+      "TargetId": "cfa9e01a-3ad5-4547-9370-cc0ebf8f4d68",
+      "SourceIndex": 5,
       "TargetIndex": -1
     },
     {
@@ -138,6 +172,15 @@
       "Metamodel": "非構造化情報からタグへの参照",
       "SourceId": "e4a20579-3f72-428d-b64c-d3e206e2283b",
       "TargetId": "6d165b2b-5d7c-49c2-817c-d2e074e1783f",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "6338f128-bd0e-42f0-a2ed-80ba527078c3",
+      "RelationType": "Ref",
+      "MetamodelId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
+      "Metamodel": "非構造化情報からタグへの参照",
+      "SourceId": "cfa9e01a-3ad5-4547-9370-cc0ebf8f4d68",
+      "TargetId": "6910fee9-0303-435f-99d5-90fe004e37c5",
       "TargetIndex": -1
     },
     {
@@ -165,6 +208,16 @@
       "Metamodel": "非構造化情報から非構造化情報への参照",
       "SourceId": "616c742b-d6c3-4b03-99ef-abf01c5321f8",
       "TargetId": "22bfc57f-94ed-4515-8e3c-dc55430eef4b",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "cc332b74-f262-438f-a288-6f6e0d77b159",
+      "RelationType": "Ref",
+      "MetamodelId": "a21bcb02-52e6-4a65-8e17-d498d6647c53",
+      "Metamodel": "非構造化情報からタグへの参照",
+      "SourceId": "cfa9e01a-3ad5-4547-9370-cc0ebf8f4d68",
+      "TargetId": "7b932953-6c64-4c9f-b59b-93396bbbc043",
+      "SourceIndex": 2,
       "TargetIndex": -1
     },
     {
