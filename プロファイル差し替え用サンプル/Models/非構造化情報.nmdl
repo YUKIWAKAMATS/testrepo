@@ -40,7 +40,7 @@
         "Name": "3-2-1. 業務・システム分析.pptx",
         "登録ユーザー名": "10042000591",
         "登録日": "2025/11/21",
-        "メモ": "",
+        "メモ": "メモです",
         "メモ最終更新ユーザー名": "10042000001",
         "格納先": ".\\Files\\10042000591\\2025-11-21\\3-2-1. 業務・システム分析.pptx"
       }
@@ -53,6 +53,21 @@
       "Metamodel": "非構造化情報定義",
       "Fields": {
         "Name": "非構造化情報"
+      }
+    },
+    {
+      "Id": "c3ad6a64-5121-4ceb-93b0-6991e0f3f503",
+      "EntityType": "Entity",
+      "Name": "Setting.json",
+      "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+      "Metamodel": "ファイル",
+      "Fields": {
+        "Name": "Setting.json",
+        "登録ユーザー名": "10042000591",
+        "登録日": "2026/01/21",
+        "メモ": "aiueo",
+        "メモ最終更新ユーザー名": "10042000591",
+        "格納先": ".\\Files\\10042000591\\2026-01-21\\Setting.json"
       }
     },
     {
@@ -210,6 +225,16 @@
       "Metamodel": "非形式情報の所有",
       "SourceId": "9cb870be-668a-4f6e-902f-28e378668aee",
       "TargetId": "e4a20579-3f72-428d-b64c-d3e206e2283b",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "b704d73f-e345-40b4-8ce5-21955d175f41",
+      "RelationType": "Embed",
+      "MetamodelId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+      "Metamodel": "非形式情報の所有",
+      "SourceId": "9cb870be-668a-4f6e-902f-28e378668aee",
+      "TargetId": "c3ad6a64-5121-4ceb-93b0-6991e0f3f503",
+      "SourceIndex": 6,
       "TargetIndex": -1
     },
     {
