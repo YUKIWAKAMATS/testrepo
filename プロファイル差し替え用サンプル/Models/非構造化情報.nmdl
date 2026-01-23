@@ -30,6 +30,19 @@
       }
     },
     {
+      "Id": "29bff5cd-09e1-4c12-af6e-797d586c51d6",
+      "EntityType": "Entity",
+      "Name": "設計成果デジタル化の軽量運用企画_Step2.pptx",
+      "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+      "Metamodel": "ファイル",
+      "Fields": {
+        "Name": "設計成果デジタル化の軽量運用企画_Step2.pptx",
+        "登録ユーザー名": "10042000591",
+        "登録日": "2026/01/23",
+        "格納先": ".\\Files\\10042000591\\2026-01-23\\設計成果デジタル化の軽量運用企画_Step2.pptx"
+      }
+    },
+    {
       "Id": "5536e4aa-66c2-455c-b2df-c93bfe8dd509",
       "EntityType": "Entity",
       "Name": ".json",
@@ -54,8 +67,8 @@
         "Name": "3-2-1. 業務・システム分析.pptx",
         "登録ユーザー名": "10042000591",
         "登録日": "2025/11/21",
-        "メモ": "システム分析",
-        "メモ最終更新ユーザー名": "10042000001",
+        "メモ": "",
+        "メモ最終更新ユーザー名": "",
         "格納先": ".\\Files\\10042000591\\2025-11-21\\3-2-1. 業務・システム分析.pptx"
       }
     },
@@ -273,6 +286,16 @@
       "SourceId": "9cb870be-668a-4f6e-902f-28e378668aee",
       "TargetId": "c3ad6a64-5121-4ceb-93b0-6991e0f3f503",
       "SourceIndex": 6,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "bc30eb92-03b1-41b3-be3e-79ec4af46685",
+      "RelationType": "Embed",
+      "MetamodelId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+      "Metamodel": "非形式情報の所有",
+      "SourceId": "9cb870be-668a-4f6e-902f-28e378668aee",
+      "TargetId": "29bff5cd-09e1-4c12-af6e-797d586c51d6",
+      "SourceIndex": 9,
       "TargetIndex": -1
     },
     {
