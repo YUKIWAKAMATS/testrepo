@@ -30,6 +30,19 @@
       }
     },
     {
+      "Id": "5536e4aa-66c2-455c-b2df-c93bfe8dd509",
+      "EntityType": "Entity",
+      "Name": ".json",
+      "MetamodelId": "017c5c7e-f322-4104-8cf7-4bbe668e2309",
+      "Metamodel": "ファイル",
+      "Fields": {
+        "Name": ".json",
+        "登録ユーザー名": "10042000591",
+        "登録日": "2026/01/23",
+        "格納先": ".\\Files\\10042000591\\2026-01-23\\.json"
+      }
+    },
+    {
       "Id": "616c742b-d6c3-4b03-99ef-abf01c5321f8",
       "EntityType": "Entity",
       "Name": "3-2-1. 業務・システム分析.pptx",
@@ -210,6 +223,16 @@
       "Metamodel": "非構造化情報からタグへの参照",
       "SourceId": "e4a20579-3f72-428d-b64c-d3e206e2283b",
       "TargetId": "6d165b2b-5d7c-49c2-817c-d2e074e1783f",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "4994847e-d183-4811-b4c0-3ec7d67fcf7a",
+      "RelationType": "Embed",
+      "MetamodelId": "97138b52-c4c4-4ce5-b252-200f81c41f27",
+      "Metamodel": "非形式情報の所有",
+      "SourceId": "9cb870be-668a-4f6e-902f-28e378668aee",
+      "TargetId": "5536e4aa-66c2-455c-b2df-c93bfe8dd509",
+      "SourceIndex": 8,
       "TargetIndex": -1
     },
     {
