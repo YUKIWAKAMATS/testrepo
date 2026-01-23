@@ -52,18 +52,7 @@
       "Metamodel": "メンバ",
       "Fields": {
         "Name": "若松",
-        "PCユーザー名": "10042000591"
-      }
-    },
-    {
-      "Id": "6ec42670-18cc-4b3b-8732-f126043049c2",
-      "EntityType": "Entity",
-      "Name": "鈴木",
-      "MetamodelId": "085cfe4b-bad0-420c-9719-9b3dd1ae891d",
-      "Metamodel": "メンバ",
-      "Fields": {
-        "Name": "鈴木",
-        "PCユーザー名": "10042000001"
+        "PCユーザー名": "10042000591,10042000001"
       }
     },
     {
@@ -100,16 +89,6 @@
     }
   ],
   "Relations": [
-    {
-      "Id": "2009b2f5-7df9-495a-8aee-023c0f05daf1",
-      "RelationType": "Embed",
-      "MetamodelId": "e2d7394c-a67e-4171-bb1e-7401fc708e6b",
-      "Metamodel": "メンバの所有",
-      "SourceId": "14e65a7d-1834-4a43-aad8-770d2d8e8c4f",
-      "TargetId": "6ec42670-18cc-4b3b-8732-f126043049c2",
-      "SourceIndex": 2,
-      "TargetIndex": -1
-    },
     {
       "Id": "35f373e5-9e41-4e00-9e3d-ecaa66b139cd",
       "RelationType": "Embed",
